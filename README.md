@@ -1,4 +1,4 @@
-  <img src="hajrahahah.jpg" alt="Hafiza Hajrah Rehman" width="150" style="border-radius: 50%; border: 3px solid #4A90E2; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="hajrahahah.jpg" width="150" style="border-radius: 50%; border: 3px solid #4A90E2; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   <h1> Hafiza Hajrah Rehman</h1>
   <p><em>Data Analyst |Data Scientist | AI Security & Interpretability Specialist | GenAI Enthusiast</em></p>
   <p>Master’s Candidate in Data Science & AI @ Saarland University, Germany 🇩🇪</p>
