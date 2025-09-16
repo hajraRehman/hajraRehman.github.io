@@ -89,6 +89,16 @@
 🔗 [Code + Dataset](https://github.com/hajraRehman/Predicting-Healthcare-Utilization-and-Expenditure-Using-Machine-Learning)
 
 ---
+### 🩻 Label-Efficient Tumor Detection in Chest X-rays using SimCLR + Grad-CAM  
+*Self-Supervised Learning for Medical Anomaly Detection*  
+- Trained **SimCLR** on 5,606 unlabeled chest X-rays to learn robust visual features without annotations.  
+- Fine-tuned on only **9.9% labeled tumor cases** using **focal loss (γ=2) + weighted sampling** to handle 10:1 class imbalance.  
+- Achieved **AUC 0.65** (vs 0.58 baseline) — proved SSL reduces annotation cost by ~70%.  
+- Used **Grad-CAM** for interpretability — attention maps aligned with radiologist-marked tumor regions.  
+- Architecture: **ResNet18 + SSL projection head + progressive unfreezing** — preserved SSL features while adapting to tumors.  
+🔗 [View Code & Report](https://github.com/hajraRehman/Self-Supervised-Anomaly-Detection-in-Medical-Imaging) 
+
+---
 
 ## 🛠️ Technical Skills
 
