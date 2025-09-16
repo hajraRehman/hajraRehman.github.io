@@ -133,8 +133,7 @@ Computer Vision | NLP | Generative AI | Healthcare Analytics | Autonomous Drivin
 
 ## 📄 Resume & Certifications
 
-📄  
-
+📄  📄 [Download My CV (PDF)](https://github.com/hajraRehman/hajraRehman.github.io/raw/main/Rehman_HafizaHajrah_CV.pdf)
 
 ### Certifications
 - AWS Machine Learning Foundations  
