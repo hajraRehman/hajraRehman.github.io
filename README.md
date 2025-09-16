@@ -1,7 +1,13 @@
-#  Hafiza Hajrah Rehman  
-> **Data Scientist | AI Security & Interpretability Specialist | GenAI Enthusiast**  
-> Master’s Candidate in Data Science & AI @ Saarland University, Germany 🇩🇪  
-> B.Sc. Computer Science @ University of Central Punjab, Pakistan 🇵🇰
+<div align="center">
+  <img src="https://via.placeholder.com/150" alt="Hafiza Hajrah Rehman" width="150" style="border-radius: 50%; border: 3px solid #4A90E2; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <h1>👩‍💻 Hafiza Hajrah Rehman</h1>
+  <p><em>Data Scientist | AI Security & Interpretability Specialist | GenAI Enthusiast</em></p>
+  <p>Master’s Candidate in Data Science & AI @ Saarland University, Germany 🇩🇪</p>
+  <p> B.Sc. Computer Science @ University of Central Punjab, Pakistan 🇵🇰 </p>
+  
+  <br>
+
+
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/hajrahrehman/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?logo=github)](https://github.com/hajraRehman)
@@ -151,3 +157,7 @@ I’m actively seeking opportunities in **ML Engineering, AI Research, or AI Sec
 ---
 
 _Last updated: September 2025_
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=hajraRehman&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
+</div>
