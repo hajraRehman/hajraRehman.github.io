@@ -107,7 +107,7 @@
 - **AI Security**: Adversarial Training, Privacy Attacks, Robustness Evaluation
 
 ### 🌐 Domains
-- Computer Vision | NLP | Generative AI | Healthcare Analytics | Autonomous Driving | AI Security | Trustworthy AI | Chemical Informatics
+Computer Vision | NLP | Generative AI | Healthcare Analytics | Autonomous Driving | AI Security | Trustworthy AI | Chemical Informatics
 
 ---
 
@@ -123,8 +123,8 @@
 
 ## 📄 Resume & Certifications
 
-📄 [Download My ATS-Optimized CV (PDF)](#)  
-*(Link to your CV hosted on GitHub or Google Drive)*
+📄  
+
 
 ### Certifications
 - AWS Machine Learning Foundations  
@@ -135,11 +135,18 @@
 
 ## 🌍 About Me
 
-I’m a passionate Data Scientist and AI researcher from Pakistan, currently pursuing my Master’s in Germany. I specialize in making AI systems **more secure, interpretable, and trustworthy** — because powerful models should also be responsible.  
 
-When I’m not attacking models or explaining their decisions, I’m fine-tuning LLMs for science or building pipelines that turn messy data into actionable insights. I believe in **code that works, reports that explain, and models that can be trusted**.
+I’m Hafiza Hajrah Rehman, a passionate and technically rigorous Data Scientist & AI Researcher currently pursuing my M.Sc. in Data Science and Artificial Intelligence at Saarland University, Germany, with a solid academic foundation from my B.Sc. in Computer Science from the University of Central Punjab, Pakistan. I specialize in building trustworthy, interpretable, and secure AI systems, with hands-on expertise spanning Adversarial Machine Learning, Model Interpretability (XAI), Parameter-Efficient LLM Fine-tuning, and End-to-End Data Science Pipelines.
 
-I speak **English (Fluent)** and am learning **German** — embracing the challenge of building a global career in AI.
+My strength lies in transforming raw, complex data into actionable insights. As a skilled Data Analyst, I excel in Exploratory Data Analysis (EDA), Statistical Analysis, Feature Engineering, and Visualization using Python (Pandas, NumPy, Matplotlib, Seaborn), RapidMiner, and Tableau. I’ve successfully applied these skills in real-world scenarios — from predicting healthcare utilization and medical expenses using 108-dimensional demographic data (XGBoost, SVM + SMOTE, R²=0.32, Accuracy=0.85) to analyzing chemical compounds for lipophilicity prediction using influence-based data selection and LoRA fine-tuning.
+
+I don’t just build models — I stress-test them. I’ve implemented Membership Inference Attacks (MIA) to expose model privacy leaks, executed Model Stealing via API to demonstrate deployment vulnerabilities, and hardened models using Robust Adversarial Training (CIFAR-10). To ensure transparency, I’ve dissected what models “see” using Network Dissection, Grad-CAM, ScoreCAM, AblationCAM, and LIME on ResNet architectures, quantifying their agreement with IoU metrics — a rare blend of security and explainability.
+
+Proficient in Python, PyTorch, Scikit-learn, Hugging Face, AWS, SQL, and MATLAB, I’m comfortable across the stack — from data cleaning and cloud deployment to model interpretation and security auditing. My projects aren’t just academic — they’re practical, documented, and deployed on GitHub, ready for industry or research use.
+
+I speak fluent English and am actively learning German (A1), embracing the challenge of building a global career in AI. Whether it’s making models more robust, more interpretable, or more efficient — I believe in code that works, reports that explain, and models that can be trusted.
+
+Let’s connect and build the next generation of responsible AI! together!
 
 ---
 
