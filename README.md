@@ -1,4 +1,4 @@
-# 👩‍💻 Hafiza Hajrah Rehman  
+#  Hafiza Hajrah Rehman  
 > **Data Scientist | AI Security & Interpretability Specialist | GenAI Enthusiast**  
 > Master’s Candidate in Data Science & AI @ Saarland University, Germany 🇩🇪  
 > B.Sc. Computer Science @ University of Central Punjab, Pakistan 🇵🇰
@@ -51,13 +51,21 @@
 🔗 [View Code](https://github.com/hajraRehman/Model-Stealing-via-Mock-API)
 
 ---
+### 🛡️ Robust Adversarial Training for CIFAR-10
+*Building Models That Survive Attacks*
+- Implemented adversarial training using Fast Gradient Sign Method (FGSM) and Projected Gradient Descent (PGD) to harden ResNet18 against evasion attacks.
+- Trained model on adversarially perturbed CIFAR-10 images — improved robust accuracy from 0% → 48% under PGD attack, while maintaining 78% clean accuracy.
+- Evaluated trade-off between robustness and generalization — key insight for deploying models in safety-critical environments.
+- *Skills: Adversarial ML, Robust Training, PyTorch, FGSM, PGD, ResNet, Model Defense*
+🔗 [View Code](https://github.com/hajraRehman/Robust-Adversarial-Training-for-CIFAR-10)
+---
 
 ### 🧾 Interpretability of ResNet using Grad-CAM & Network Dissection  
 *What Does Your Model Actually “See”?*  
 - Mapped neuron activations in **ResNet18/50** (trained on ImageNet/Places365) to human concepts (e.g., “flamingo”, “terrier”) using Broden dataset.  
 - Applied **Grad-CAM** and **LIME** to visualize decision-making on 10 ImageNet classes — enhancing model transparency for safety-critical domains.  
 - *Skills: Explainable AI (XAI), Computer Vision, Model Interpretability, Visualization*  
-🔗 [View Visuals](#) | [Code](https://github.com/hajraRehman/interpretability)
+🔗 [View Visuals](#) | [Code](https://github.com/hajraRehman/Explainability-Analysis-of-ResNet-Models-using-Network-Dissection-Grad-CAM-LIME)
 
 ---
 
@@ -66,7 +74,7 @@
 - Compared **LoRA, BitFit, iA3** for fine-tuning chemical language models using Hugging Face.  
 - Evaluated data selection via **influence scores + diversity sampling** — found LoRA most stable; influence scores require caution.  
 - *Skills: LLM Fine-tuning, LoRA, Hugging Face, Chemical AI, Efficient Learning*  
-🔗 [GitHub Repo](https://github.com/hajraRehman/chem-llm-lora)
+🔗 [GitHub Repo](https://github.com/hajraRehman/Fine-Tuning-Chemical-Language-Models-with-LoRA-Influence-Sampling)
 
 ---
 
@@ -75,15 +83,7 @@
 - Built end-to-end ML pipeline: preprocessing, feature selection, modeling (XGBoost, SVM), evaluation.  
 - **XGBoost (R²=0.89)** for regression, **SVM + SMOTE (F1=0.92)** for classification — handled class imbalance effectively.  
 - *Skills: Data Analysis, Feature Engineering, Scikit-learn, XGBoost, SMOTE, Healthcare Analytics*  
-🔗 [Code + Dataset](https://github.com/hajraRehman/healthcare-ml)
-
----
-
-### 🤖 Fine-Tuning Generative AI for Program Repair & Hint Generation  
-*Applied GenAI in Software Engineering*  
-- Fine-tuned code-generation models to suggest fixes and hints for buggy programs.  
-- Explored prompt engineering and few-shot learning for code repair tasks.  
-- *Skills: Generative AI, Code LLMs, Prompt Engineering, NLP*
+🔗 [Code + Dataset](https://github.com/hajraRehman/Predicting-Healthcare-Utilization-and-Expenditure-Using-Machine-Learning)
 
 ---
 
@@ -126,8 +126,7 @@
 ### Certifications
 - AWS Machine Learning Foundations  
 - AWS Data Engineering  
-- AWS NLP Specialization  
-- Generative AI Course (Platform Name)
+- AWS Natural Language Processing
 
 ---
 
@@ -137,7 +136,7 @@ I’m a passionate Data Scientist and AI researcher from Pakistan, currently pur
 
 When I’m not attacking models or explaining their decisions, I’m fine-tuning LLMs for science or building pipelines that turn messy data into actionable insights. I believe in **code that works, reports that explain, and models that can be trusted**.
 
-I speak **English (Fluent)** and am learning **German (A1)** — embracing the challenge of building a global career in AI.
+I speak **English (Fluent)** and am learning **German** — embracing the challenge of building a global career in AI.
 
 ---
 
@@ -145,10 +144,10 @@ I speak **English (Fluent)** and am learning **German (A1)** — embracing the c
 
 I’m actively seeking opportunities in **ML Engineering, AI Research, or AI Security**. If you’re working on trustworthy AI, adversarial ML, or applied GenAI — let’s talk!
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/yourprofile)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/hajrahrehman/)  
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?logo=github)](https://github.com/hajraRehman)  
-✉️ your.email@example.com
+✉️ hafizahajra6@gmail.com
 
 ---
 
-_Last updated: May 2025_
+_Last updated: September 2025_
