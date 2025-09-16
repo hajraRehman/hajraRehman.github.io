@@ -7,6 +7,9 @@
   
   <br>
 
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=hajraRehman&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
+</div>
 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/hajrahrehman/)
@@ -158,6 +161,3 @@ I’m actively seeking opportunities in **ML Engineering, AI Research, or AI Sec
 
 _Last updated: September 2025_
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=hajraRehman&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
-</div>
