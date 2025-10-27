@@ -8,7 +8,7 @@
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hajrahrehman/) [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github&logoColor=white)](https://github.com/hajraRehman) [![Email](https://img.shields.io/badge/Email-hafizahajra6@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:hafizahajra6@gmail.com)
 
   <br>
-  <img src="https://img.shields.io/github/stars/hajraRehman?color=yellow&label=Stars" alt="GitHub Stars"> <img src="https://img.shields.io/github/forks/hajraRehman?color=green&label=Forks" alt="GitHub Forks">
+  
 </div>
 
 ---
