@@ -1,5 +1,3 @@
-# Hafiza Hajrah Rehman
-
 <div align="center">
 
 <img src="hajrahahah.jpg" width="150" style="border-radius: 50%; border: 3px solid #4A90E2; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
