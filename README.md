@@ -1,20 +1,29 @@
 <div align="center">
+  <img src="hajrahahah.jpg" width="150" alt="Hafiza Hajrah Rehman" style="border-radius: 50%; border: 3px solid #4A90E2; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
-<img src="hajrahahah.jpg" width="150" style="border-radius: 50%; border: 3px solid #4A90E2; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  # Hafiza Hajrah Rehman
+  <p><em><strong>Data Analyst | Data Scientist | AI Security & Interpretability Specialist | GenAI Enthusiast</strong></em></p>
+  <p>📍 <strong>M.Sc. Data Science & AI @ Saarland University, Germany 🇩🇪</strong> | <strong>B.Sc. Computer Science @ UCP, Pakistan 🇵🇰</strong></p>
 
-<h1>Hafiza Hajrah Rehman</h1>
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hajrahrehman/) [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hajraRehman) [![Email](https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hafizahajra6@gmail.com)
 
-<p><em><strong>Data Analyst | Data Scientist | AI Security & Interpretability Specialist | GenAI Enthusiast</strong></em></p>
+ </div>
 
-<p>📍 <strong>M.Sc. Data Science & AI @ Saarland University, Germany 🇩🇪</strong> | <strong>B.Sc. Computer Science @ UCP, Pakistan 🇵🇰</strong></p>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/hajrahrehman/) [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?logo=github)](https://github.com/hajraRehman) [![Email](https://img.shields.io/badge/Email-Contact%20Me-red?logo=gmail)](mailto:hafizahajra6@gmail.com)
-
-</div>
+---
+## 📌 Quick Nav
+- [About Me](#about-me)
+- [🎓 Education](#🎓-education)
+- [💼 Experience](#💼-experience)
+- [🚀 Featured Projects](#🚀-featured-projects)
+- [🏆 Achievements](#🏆-achievements)
+- [🤝 Leadership](#🤝-leadership)
+- [🛠️ Skills](#🛠️-skills)
+- [🌍 Languages](#🌍-languages)
+- [📬 Connect](#📬-lets-connect)
 
 ---
 
-## 👋 About Me
+## About Me
 
 I'm Hafiza Hajrah Rehman, a dedicated **Data Scientist and AI Researcher** passionate about crafting **trustworthy, interpretable, and secure AI systems**. Currently pursuing my Master's in Data Science and Artificial Intelligence at Saarland University, Germany, I blend rigorous theory with practical innovation in areas like adversarial machine learning, explainable AI (XAI), and efficient LLM fine-tuning.
 
