@@ -169,10 +169,186 @@ I’m actively seeking opportunities in **ML Engineering, AI Research, or AI Sec
 
 ---
 
-_Last updated: September 2025_
-
-
+# Hafiza Hajrah Rehman
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=hajraRehman&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
+
+[![Data Analyst | Data Scientist | AI Security & Interpretability Specialist | GenAI Enthusiast](https://img.shields.io/badge/Data%20Analyst%20%26%20AI%20Specialist-%23121011?style=for-the-badge&logo=TensorFlow&logoColor=white)](https://www.linkedin.com/in/hafizahajrah-rehman/)  
+**M.Sc. Data Science & AI @ Saarland University, Germany 🇩🇪 | B.Sc. Computer Science @ UCP, Pakistan 🇵🇰**
+
+[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hafizahajra6@gmail.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hafizahajrah-rehman/) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hafizahajrah)
+
+</div>
+
+---
+
+## 👋 About Me
+
+I'm Hafiza Hajrah Rehman, a passionate **Data Scientist and AI Researcher** with a focus on **trustworthy, interpretable, and secure AI systems**. Currently pursuing my Master's in Data Science and Artificial Intelligence at Saarland University, Germany, I specialize in adversarial machine learning, explainable AI (XAI), and parameter-efficient fine-tuning of large language models (LLMs).
+
+I thrive at the intersection of **theory and practice**—blending mathematical rigor with hands-on projects to build models that not only perform but can be trusted in real-world applications like healthcare, IoT security, and autonomous driving. Beyond code, I'm a mentor, volunteer, and advocate for accessible AI education, drawing from my roots in Pakistan to foster inclusive tech communities.
+
+> *"I believe in code that works, reports that explain, and models that can be trusted."*
+
+Fluent in English, intermediate in German, and always eager to collaborate on ethical AI innovations. Open to opportunities in **AI Research, ML Engineering, and Trustworthy AI** roles in Europe or beyond (yes, even dreaming of NASA 🚀).
+
+---
+
+## 🎓 Education
+
+### M.Sc. Data Science and Artificial Intelligence  
+**Saarland University**, Saarbrücken, Germany  
+*March 2024 – March 2026 (Expected)*  
+- **Key Courses**: Machine Learning, Neural Networks: Theory and Implementation, Generative AI, Statistical NLP, Advances in AI for Autonomous Driving, German A1  
+
+### B.Sc. Computer Science (Honors)  
+**University of Central Punjab**, Lahore, Pakistan  
+*December 2019 – July 2023*  
+- **Final Year Project**: Deep Learning for Pedestrian Danger Estimation (3rd Place in University Competition)  
+- **Relevant Coursework**: Artificial Intelligence, Data Analysis Techniques, Mathematics for Machine Learning, Introduction to Data Science  
+
+---
+
+## 💼 Professional Experience
+
+### ML/Data Analyst  
+**Zeeoutsourcing UK** (Remote)  
+*November 2022 – February 2024*  
+- Contributed to AI research projects on IoT security and energy-efficient intrusion detection.  
+- Developed **SFlexCrypt**, a ML framework for detecting Sinkhole attacks in wireless sensor networks using Scikit-learn and Contiki-Cooja datasets—improving detection accuracy and energy efficiency.  
+- Performed data preprocessing, model training, and evaluation; collaborated on publications for smart city applications.  
+
+### AI Engineering Intern  
+**Zeeoutsourcing UK** (Remote)  
+*August 2022 – October 2022*  
+- Assisted in ML model development for IoT applications, focusing on performance tuning and evaluation.  
+- Conducted literature reviews, data preparation, and report visualization for energy-efficient IoT systems.  
+
+---
+
+## 🚀 Featured Projects
+
+Here are some of my standout projects showcasing expertise in AI security, interpretability, and generative models. All built with open-source tools—check the repos for code, demos, and reports!
+
+| Project | Description | Tech Stack | Links |
+|---------|-------------|------------|-------|
+| **🔐 Membership Inference Attack (MIA) on ResNet18**<br/>*Evaluating Privacy Leakage in Pretrained Models* | Implemented shadow model training and attack classifier in PyTorch to detect training set membership. Achieved >80% success rate on CIFAR-10 subset, highlighting privacy risks. | PyTorch, CIFAR-10, Adversarial ML | [![GitHub](https://img.shields.io/badge/View_Code-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hafizahajrah/mia-resnet18) |
+| **🕵️ Model Stealing via Mock API**<br/>*Reverse-Engineering a Protected Encoder* | Black-box extraction pipeline using query synthesis and fine-tuning to replicate target model behavior with <5% accuracy loss—exposing API vulnerabilities. | PyTorch, Transfer Learning, API Security | [![GitHub](https://img.shields.io/badge/View_Code-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hafizahajrah/model-stealing-api) |
+| **🛡️ Robust Adversarial Training for CIFAR-10**<br/>*Building Models That Survive Attacks* | Applied FGSM and PGD for hardening ResNet18: Boosted robust accuracy from 0% to 48% under PGD while keeping 78% clean accuracy. | PyTorch, FGSM, PGD, Model Defense | [![GitHub](https://img.shields.io/badge/View_Code-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hafizahajrah/robust-adversarial-cifar) |
+| **🧾 Interpretability of ResNet using Grad-CAM & Network Dissection**<br/>*What Does Your Model Actually “See”?* | Visualized activations in ResNet18/50 on ImageNet/Places365; used Grad-CAM and LIME for transparent decision-making in safety-critical apps. | XAI, Grad-CAM, LIME, OpenCV | [![View Visuals](https://img.shields.io/badge/View_Visuals-blue?style=for-the-badge&logo=figma&logoColor=white)](https://hafizahajrah.notion.site/ResNet-Interpretability-Demo) [![GitHub](https://img.shields.io/badge/Code-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hafizahajrah/resnet-interpretability) |
+| **🧪 Fine-tuning Chemical LLMs with LoRA & Influence Sampling**<br/>*Parameter-Efficient Learning for Scientific Domains* | Compared LoRA, BitFit, iA3 on chemical datasets via Hugging Face; LoRA proved most stable for influence-based sampling. | Hugging Face, LoRA, PyTorch | [![GitHub](https://img.shields.io/badge/View_Code-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hafizahajrah/chemical-llm-finetuning) |
+| **🩻 Label-Efficient Tumor Detection using SimCLR + Grad-CAM**<br/>*Self-Supervised Learning for Medical Anomaly Detection* | Trained SimCLR on unlabeled X-rays, fine-tuned for tumors: AUC 0.65 (vs. 0.58 baseline), reducing annotations by ~70%. Grad-CAM validated alignments. | SimCLR, PyTorch, Grad-CAM | [![View Report](https://img.shields.io/badge/View_Report-green?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/tumor-detection-report) |
+| **🏥 Medical Expense Prediction with XGBoost & SMOTE**<br/>*Healthcare Analytics with Real-World Impact* | End-to-end pipeline for cost prediction: R²=0.89, F1=0.92; tackled imbalance with SMOTE. | XGBoost, Scikit-learn, Pandas | [![GitHub](https://img.shields.io/badge/Code%20%2B_Dataset-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hafizahajrah/medical-expense-prediction) |
+
+---
+
+## 📁 Archived & Conceptual Projects
+
+- **🌐 SFlexCrypt — Sinkhole Attack Detection in IoT Networks**  
+  ML framework for energy-efficient detection in wireless sensor networks (Contiki-Cooja sim).  
+  *Skills*: Python, Scikit-learn, IoT Security  
+
+- **🏙️ Low-Power IoT Challenges in Smart Cities**  
+  Research on energy-optimized data transmission for urban IoT.  
+  *Skills*: IoT Analytics, Power Optimization  
+
+- **🤖 Intellivision — AI Content Creation & Video Lecture Generator** *(FICS NUST 2023 Finalist)*  
+  Web app using GPT-3 + Synthesia for auto-generating lectures.  
+  *Skills*: GPT-3, NLP, Flask, EdTech AI  
+
+- **💬 Conversational AI Help-Desk Bot**  
+  University chatbot with intent recognition, reducing manual queries by 60%.  
+  *Skills*: Python, Dialogflow, NLP  
+
+- **🧠 Explainable AI for Medical Diagnosis**  
+  Integrated LIME, SHAP, and counterfactuals for interpretable healthcare models.  
+  *Skills*: XAI, SHAP, Ethical AI  
+
+- **🧮 Research Collaboration — NUCES-FAST Lahore**  
+  Worked on Theory of Automata, Mathematical Computing, and ML integration.  
+  *Skills*: Theoretical CS, Automata  
+
+---
+
+## 🏆 Achievements & Certifications
+
+### Achievements
+- 🥉 **3rd Place** — UCP Final Year Project Competition (2023) for Pedestrian Detection with Danger Estimation  
+- 🧩 **Selected Project** — Represented UCP at FICS NUST 2023 with *Intellivision*  
+- 📊 **Research Contribution** — SFlexCrypt integrated into IoT security research at Zeeoutsourcing UK (2023)  
+- 🔬 **Research Collaboration** — With Prof. Liaqat Majeed on Automata & ML (NUCES-FAST Lahore, 2022)  
+- 💡 **Samsung Innovation Campus AI Cohort-II Graduate** (2022)  
+
+### Certifications
+- ☁️ **AWS Academy Machine Learning Foundations** — AWS Graduate  
+- ☁️ **AWS Academy Data Engineering** — AWS Graduate  
+- ☁️ **AWS Academy Natural Language Processing** — AWS Graduate  
+- 🎓 **Artificial Intelligence Course (SIC Cohort-II)** — Samsung Innovation Campus  
+
+---
+
+## 🤝 Leadership & Volunteering
+
+- **President — Pakistan Student Association Saarland**  
+  Led academic, cultural, and community initiatives for Pakistani students at Saarland University.  
+
+- **ML Instructor — LIVEX-UMT** (Volunteer)  
+  Taught foundational ML to undergraduates; mentored capstone projects.  
+
+- **Management Head — TAAKRA’23**  
+  Coordinated Pakistan’s largest multi-category inter-university competition.  
+
+- **Volunteer — Al-Khidmat Foundation**  
+  Participated in plantation and ration drives for community welfare (2023).  
+
+- **Director Linguistics & Writer’s Group — UCP Societies**  
+  Mentored creative/technical writing teams; organized workshops and debates.  
+
+---
+
+## 🛠️ Technical Skills
+
+### Programming Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white) ![MATLAB](https://img.shields.io/badge/MATLAB-FF0000?style=flat&logo=matlab&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
+
+### Frameworks & Libraries
+- **ML/DL**: PyTorch, Scikit-learn, XGBoost, TensorFlow, LoRA, iA3  
+- **NLP/GenAI**: Hugging Face, Transformers, Prompt Engineering  
+- **Data Viz**: Matplotlib, Seaborn, Tableau  
+- **Web/Other**: React.js, Django, HTML/CSS  
+
+### Techniques & Tools
+- **ML Techniques**: Supervised/Unsupervised Learning, SMOTE, Grad-CAM, LIME, Contrastive Learning (SimCLR)  
+- **Data Analysis**: Pandas, NumPy, EDA, Feature Engineering  
+- **Cloud/DevOps**: AWS (SageMaker, S3, EC2), Git, Docker, Jupyter  
+- **Domains**: AI Security, Trustworthy AI, Computer Vision, NLP, Generative AI, Healthcare, Autonomous Driving  
+
+---
+
+## 🌍 Languages
+- **English** (Fluent) 🇬🇧  
+- **German** (Intermediate) 🇩🇪  
+- **Urdu** (Native) 🇵🇰  
+- **Punjabi** (Native) 🇵🇰  
+- **Arabic** (Basic) 🇸🇦  
+
+---
+
+## 📬 Let's Connect!
+
+I'm always up for chatting about AI , collaborative projects, or just sharing recipes from Lahore. Reach out!
+
+<div align="center">
+  
+[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hafizahajra6@gmail.com)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hafizahajrah-rehman/)  
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hafizahajrah)
+
+</div>
+
+---
+
+*Last Updated: October 2025*  
+<div align="center">  
+  <img src="https://img.shields.io/badge/Built%20with-%E2%9D%A4%EF%B8%8F%20and%20Markdown-1f425f.svg" alt="Built with Love">  
 </div>
