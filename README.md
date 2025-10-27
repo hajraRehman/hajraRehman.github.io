@@ -13,11 +13,11 @@
 ## 📌 Quick Nav
 - [About Me](#about-me)
 - [🎓 Education](#🎓-education)
-- [💼 Experience](#💼-experience)
+- [💼 Professional Experience](#💼-Professional-Experience)
 - [🚀 Featured Projects](#🚀-featured-projects)
-- [🏆 Achievements](#🏆-achievements)
-- [🤝 Leadership](#🤝-leadership)
-- [🛠️ Skills](#🛠️-skills)
+- [🏆 Achievements & Certifications](#🏆-Achievements-&-Certifications)
+- [🤝 Leadership](#🤝-Leadership-&-Volunteering)
+- [🛠️ Skills](#🛠️-technical-skills)
 - [🌍 Languages](#🌍-languages)
 - [📬 Connect](#📬-lets-connect)
 
