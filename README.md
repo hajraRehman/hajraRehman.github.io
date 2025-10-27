@@ -20,7 +20,7 @@
 
 I'm Hafiza Hajrah Rehman, a dedicated **Data Scientist and AI Researcher** passionate about crafting **trustworthy, interpretable, and secure AI systems**. Currently pursuing my Master's in Data Science and Artificial Intelligence at Saarland University, Germany, I blend rigorous theory with practical innovation in areas like adversarial machine learning, explainable AI (XAI), and efficient LLM fine-tuning.
 
-From my roots in Pakistan to thriving in Germany's tech ecosystem, I excel at turning complex data into ethical, impactful solutions—whether hardening models against attacks, visualizing "what models see," or optimizing for low-resource domains like healthcare and IoT. As a mentor and community leader, I believe in accessible AI that empowers everyone.
+From my roots in Pakistan to thriving in Germany's tech ecosystem, I excel at turning complex data into ethical, impactful solutions;whether hardening models against attacks, visualizing "what models see," or optimizing for low-resource domains like healthcare and IoT. As a mentor and community leader, I believe in accessible AI that empowers everyone.
 
 > *"I believe in code that works, reports that explain, and models that can be trusted."*
 
@@ -49,7 +49,7 @@ Fluent in English, building German fluency, and always open to collaborations in
 **Zeeoutsourcing UK** (Remote)  
 *November 2022 – February 2024*  
 - Contributed to AI research on IoT security and energy-efficient intrusion detection.  
-- Developed **SFlexCrypt**, an ML framework for Sinkhole attack detection in wireless sensor networks—improving accuracy and efficiency via Contiki-Cooja datasets.  
+- Developed **SFlexCrypt**, an ML framework for Sinkhole attack detection in wireless sensor networks, improving accuracy and efficiency via Contiki-Cooja datasets.  
 - Handled data preprocessing, model training/evaluation; analyzed results for smart city publications.  
 
 ### AI Engineering Intern  
@@ -173,13 +173,13 @@ Dive into my hands-on work in AI security, interpretability, and healthcare. Eac
 
 ## 📬 Let’s Connect!
 
-Seeking roles in **ML Engineering, AI Research, or AI Security**. Let's chat AI ethics, projects, or Lahore chai!
+Seeking roles in **Data Science, ML Engineering, AI Research, or AI Security**. Let's chat AI ethics, projects, or about Lahore!
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/hajrahrehman/)  
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?logo=github)](https://github.com/hajraRehman)  
-✉️ [hafizahajra6@gmail.com](mailto:hafizahajra6@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hajrahrehman/)  
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hajraRehman)  
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hafizahajra6@gmail.com)
 
 </div>
 
