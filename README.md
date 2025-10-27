@@ -5,29 +5,32 @@
   <p><em><strong>Data Analyst | Data Scientist | AI Security & Interpretability Specialist | GenAI Enthusiast</strong></em></p>
   <p>📍 <strong>M.Sc. Data Science & AI @ Saarland University, Germany 🇩🇪</strong> | <strong>B.Sc. Computer Science @ UCP, Pakistan 🇵🇰</strong></p>
 
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hajrahrehman/) [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hajraRehman) [![Email](https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hafizahajra6@gmail.com)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hajrahrehman/) [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github&logoColor=white)](https://github.com/hajraRehman) [![Email](https://img.shields.io/badge/Email-hafizahajra6@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:hafizahajra6@gmail.com)
 
- </div>
+  <br>
+  <img src="https://img.shields.io/github/stars/hajraRehman?color=yellow&label=Stars" alt="GitHub Stars"> <img src="https://img.shields.io/github/forks/hajraRehman?color=green&label=Forks" alt="GitHub Forks">
+</div>
 
 ---
+
 ## 📌 Quick Nav
-- [About Me](#about-me)
+- [👋 About Me](#👋-about-me)
 - [🎓 Education](#🎓-education)
-- [💼 Professional Experience](#💼-Professional-Experience)
+- [💼 Professional Experience](#💼-professional-experience)
 - [🚀 Featured Projects](#🚀-featured-projects)
-- [🏆 Achievements & Certifications](#🏆-Achievements-&-Certifications)
-- [🤝 Leadership](#🤝-Leadership-&-Volunteering)
+- [📁 Archived Projects](#📁-archived-&-conceptual-projects)
+- [🏆 Achievements & Certifications](#🏆-achievements-and-certifications)
+- [🤝 Leadership](#🤝-leadership-&-volunteering)
 - [🛠️ Skills](#🛠️-technical-skills)
 - [🌍 Languages](#🌍-languages)
 - [📬 Connect](#📬-lets-connect)
 
 ---
 
-## About Me
-
+## 👋 About Me
 I'm Hafiza Hajrah Rehman, a dedicated **Data Scientist and AI Researcher** passionate about crafting **trustworthy, interpretable, and secure AI systems**. Currently pursuing my Master's in Data Science and Artificial Intelligence at Saarland University, Germany, I blend rigorous theory with practical innovation in areas like adversarial machine learning, explainable AI (XAI), and efficient LLM fine-tuning.
 
-From my roots in Pakistan to thriving in Germany's tech ecosystem, I excel at turning complex data into ethical, impactful solutions;whether hardening models against attacks, visualizing "what models see," or optimizing for low-resource domains like healthcare and IoT. As a mentor and community leader, I believe in accessible AI that empowers everyone.
+From my roots in Pakistan to thriving in Germany's tech ecosystem, I excel at turning complex data into ethical, impactful solutions—whether hardening models against attacks, visualizing "what models see," or optimizing for low-resource domains like healthcare and IoT. As a mentor and community leader, I believe in accessible AI that empowers everyone.
 
 > *"I believe in code that works, reports that explain, and models that can be trusted."*
 
@@ -73,14 +76,14 @@ Dive into my hands-on work in AI security, interpretability, and healthcare. Eac
 
 | Project | Description | Tech Stack | Links |
 |---------|-------------|------------|-------|
-| **🔐 Membership Inference Attack (MIA) on ResNet18**<br/>*Evaluating Privacy Leakage in Pretrained Models* | Shadow model training + attack classifier to detect training set membership. >80% success on CIFAR-10 subset, spotlighting privacy risks. | PyTorch, CIFAR-10, Adversarial ML | [![View Code](https://img.shields.io/badge/View_Code-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hajraRehman/Membership-Inference-Attack-on-Resnet18) |
-| **🕵️ Model Stealing via Mock API**<br/>*Reverse-Engineering a Protected Encoder* | Black-box extraction with query synthesis + fine-tuning; replicated model with <5% accuracy loss, exposing API flaws. | PyTorch, Transfer Learning, API Security | [![View Code](https://img.shields.io/badge/View_Code-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hajraRehman/Model-Stealing-via-Mock-API) |
-| **🛡️ Robust Adversarial Training for CIFAR-10**<br/>*Building Models That Survive Attacks* | FGSM/PGD hardening on ResNet18: 0% → 48% robust accuracy under PGD, 78% clean—balancing defense & generalization. | PyTorch, FGSM, PGD, Model Defense | [![View Code](https://img.shields.io/badge/View_Code-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hajraRehman/Robust-Adversarial-Training-for-CIFAR-10) |
-| **🧾 Interpretability of ResNet using Grad-CAM & Network Dissection**<br/>*What Does Your Model Actually “See”?* | Neuron activation mapping on ImageNet/Places365; Grad-CAM/LIME visuals for transparent decisions in critical apps. | XAI, Grad-CAM, LIME, OpenCV | [![View Visuals](https://img.shields.io/badge/View_Visuals-blue?style=for-the-badge&logo=figma&logoColor=white)](https://hafizahajrah.notion.site/ResNet-Interpretability-Demo) [![View Code](https://img.shields.io/badge/View_Code-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hajraRehman/Explainability-Analysis-of-ResNet-Models-using-Network-Dissection-Grad-CAM-LIME) |
-| **🧪 Fine-tuning Chemical LLMs with LoRA & Influence Sampling**<br/>*Parameter-Efficient Learning for Scientific Domains* | LoRA/BitFit/iA3 comparison on chemical datasets; LoRA excelled in stability with influence sampling. | Hugging Face, LoRA, PyTorch | [![View Code](https://img.shields.io/badge/View_Code-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hajraRehman/Fine-Tuning-Chemical-Language-Models-with-LoRA-Influence-Sampling) |
-| **🏥 Medical Expense Prediction with XGBoost & SMOTE**<br/>*Healthcare Analytics with Real-World Impact* | End-to-end pipeline: R²=0.89 regression, F1=0.92 classification; SMOTE tackled imbalance. | XGBoost, Scikit-learn, Pandas | [![Code + Dataset](https://img.shields.io/badge/Code%20%2B_Dataset-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hajraRehman/Predicting-Healthcare-Utilization-and-Expenditure-Using-Machine-Learning) |
-| **🩻 Label-Efficient Tumor Detection using SimCLR + Grad-CAM**<br/>*Self-Supervised Learning for Medical Anomaly Detection* | SimCLR on 5,600 unlabeled X-rays; fine-tuned for tumors (AUC=0.65 vs. 0.58 baseline), ~70% annotation savings. Grad-CAM aligned with expert marks. | SimCLR, PyTorch, Grad-CAM | [![View Code & Report](https://img.shields.io/badge/View_Code%20%26_Report-green?style=for-the-badge&logo=googledrive&logoColor=white)](https://github.com/hajraRehman/Self-Supervised-Anomaly-Detection-in-Medical-Imaging) |
-| **🚶 Pedestrian Detection with Danger Estimation**<br/>*Real-Time Risk Assessment from Surveillance* | DL model for pedestrian spotting + dynamic "danger zones" via distance/bounding boxes. 3rd Place in UCP FYP (120+ entries). | Python, OpenCV, PyTorch | [![View Code](https://img.shields.io/badge/View_Code-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hajraRehman/Pedestrian-Detection-Danger-Estimation) |
+| **🔐 Membership Inference Attack (MIA) on ResNet18**<br/>*Evaluating Privacy Leakage in Pretrained Models* | Shadow model training + attack classifier to detect training set membership. >80% success on CIFAR-10 subset, spotlighting privacy risks. | PyTorch, CIFAR-10, Adversarial ML | [![View Code](https://img.shields.io/badge/View_Code-black?style=flat&logo=github&logoColor=white)](https://github.com/hajraRehman/Membership-Inference-Attack-on-Resnet18) |
+| **🕵️ Model Stealing via Mock API**<br/>*Reverse-Engineering a Protected Encoder* | Black-box extraction with query synthesis + fine-tuning; replicated model with <5% accuracy loss, exposing API flaws. | PyTorch, Transfer Learning, API Security | [![View Code](https://img.shields.io/badge/View_Code-black?style=flat&logo=github&logoColor=white)](https://github.com/hajraRehman/Model-Stealing-via-Mock-API) |
+| **🛡️ Robust Adversarial Training for CIFAR-10**<br/>*Building Models That Survive Attacks* | FGSM/PGD hardening on ResNet18: 0% → 48% robust accuracy under PGD, 78% clean—balancing defense & generalization. | PyTorch, FGSM, PGD, Model Defense | [![View Code](https://img.shields.io/badge/View_Code-black?style=flat&logo=github&logoColor=white)](https://github.com/hajraRehman/Robust-Adversarial-Training-for-CIFAR-10) |
+| **🧾 Interpretability of ResNet using Grad-CAM & Network Dissection**<br/>*What Does Your Model Actually “See”?* | Neuron activation mapping on ImageNet/Places365; Grad-CAM/LIME visuals for transparent decisions in critical apps. | XAI, Grad-CAM, LIME, OpenCV | [![View Visuals](https://img.shields.io/badge/View_Visuals-blue?style=flat&logo=figma&logoColor=white)](https://hafizahajrah.notion.site/ResNet-Interpretability-Demo) [![View Code](https://img.shields.io/badge/View_Code-black?style=flat&logo=github&logoColor=white)](https://github.com/hajraRehman/Explainability-Analysis-of-ResNet-Models-using-Network-Dissection-Grad-CAM-LIME) |
+| **🧪 Fine-tuning Chemical LLMs with LoRA & Influence Sampling**<br/>*Parameter-Efficient Learning for Scientific Domains* | LoRA/BitFit/iA3 comparison on chemical datasets; LoRA excelled in stability with influence sampling. | Hugging Face, LoRA, PyTorch | [![View Code](https://img.shields.io/badge/View_Code-black?style=flat&logo=github&logoColor=white)](https://github.com/hajraRehman/Fine-Tuning-Chemical-Language-Models-with-LoRA-Influence-Sampling) |
+| **🏥 Medical Expense Prediction with XGBoost & SMOTE**<br/>*Healthcare Analytics with Real-World Impact* | End-to-end pipeline: R²=0.89 regression, F1=0.92 classification; SMOTE tackled imbalance. | XGBoost, Scikit-learn, Pandas | [![Code + Dataset](https://img.shields.io/badge/Code%20%2B_Dataset-black?style=flat&logo=github&logoColor=white)](https://github.com/hajraRehman/Predicting-Healthcare-Utilization-and-Expenditure-Using-Machine-Learning) |
+| **🩻 Label-Efficient Tumor Detection using SimCLR + Grad-CAM**<br/>*Self-Supervised Learning for Medical Anomaly Detection* | SimCLR on 5,600 unlabeled X-rays; fine-tuned for tumors (AUC=0.65 vs. 0.58 baseline), ~70% annotation savings. Grad-CAM aligned with expert marks. | SimCLR, PyTorch, Grad-CAM | [![View Code & Report](https://img.shields.io/badge/View_Code%20%26_Report-green?style=flat&logo=googledrive&logoColor=white)](https://github.com/hajraRehman/Self-Supervised-Anomaly-Detection-in-Medical-Imaging) |
+| **🚶 Pedestrian Detection with Danger Estimation**<br/>*Real-Time Risk Assessment from Surveillance* | DL model for pedestrian spotting + dynamic "danger zones" via distance/bounding boxes. 3rd Place in UCP FYP (120+ entries). | Python, OpenCV, PyTorch | [![View Code](https://img.shields.io/badge/View_Code-black?style=flat&logo=github&logoColor=white)](https://github.com/hajraRehman/Pedestrian-Detection-Danger-Estimation) |
 
 ---
 
@@ -179,13 +182,10 @@ Dive into my hands-on work in AI security, interpretability, and healthcare. Eac
 ---
 
 ## 📬 Let’s Connect!
-
 Seeking roles in **Data Science, ML Engineering, AI Research, or AI Security**. Let's chat AI ethics, projects, or about Lahore!
 
 <div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hajrahrehman/)  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hajraRehman)  [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hafizahajra6@gmail.com)
-
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hajrahrehman/) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/hajraRehman) [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:hafizahajra6@gmail.com)
 </div>
 
 ---
