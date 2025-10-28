@@ -5,9 +5,9 @@
   <p><strong>Data Analyst | Data Scientist | AI Security & Interpretability Specialist | GenAI Enthusiast</strong></p>
   <p>📍 <strong>M.Sc. Data Science & AI @ Saarland University, Germany 🇩🇪</strong> | <strong>B.Sc. Computer Science @ UCP, Pakistan 🇵🇰</strong></p>
 
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hajrahrehman/)
-  [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github&logoColor=white)](https://github.com/hajraRehman)
-  [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=flat&logo=gmail&logoColor=white)](mailto:hafizahajra6@gmail.com)
+[<img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/hajrahrehman/)
+[<img src="https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github&logoColor=white" />](https://github.com/hajraRehman)
+[<img src="https://img.shields.io/badge/Email-Contact-D14836?style=flat&logo=gmail&logoColor=white" />](mailto:hafizahajra6@gmail.com)
 
   <br>
   </div>
