@@ -1,16 +1,22 @@
 <div align="center">
-  <img src="hajrahahah.jpg" width="150" alt="Hafiza Hajrah Rehman" style="border-radius: 50%; border: 3px solid #4A90E2; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-
-  # Hafiza Hajrah Rehman
+  <h1 style="text-align:center;">Hafiza Hajrah Rehman</h1> 
   <p><strong>Data Analyst | Data Scientist | AI Security & Interpretability Specialist | GenAI Enthusiast</strong></p>
   <p>📍 <strong>M.Sc. Data Science & AI @ Saarland University, Germany 🇩🇪</strong> | <strong>B.Sc. Computer Science @ UCP, Pakistan 🇵🇰</strong></p>
-
-[<img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/hajrahrehman/)
-[<img src="https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github&logoColor=white" />](https://github.com/hajraRehman)
-[<img src="https://img.shields.io/badge/Email-Contact-D14836?style=flat&logo=gmail&logoColor=white" />](mailto:hafizahajra6@gmail.com)
-
   <br>
+  <p align="center">
+  <a href="https://www.linkedin.com/in/hajrahrehman/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://github.com/hajraRehman">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" />
+  </a>
+  <a href="mailto:hafizahajra6@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" />
+  </a>
+</p>
   </div>
+
+
 
 ---
 
