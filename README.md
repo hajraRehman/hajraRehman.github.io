@@ -1,7 +1,7 @@
 <div align="center">
   <h1 style="text-align:center;">Hafiza Hajrah Rehman</h1> 
   <p><strong>Data Analyst | Data Scientist | AI Security & Interpretability Specialist | GenAI Enthusiast</strong></p>
-  <p>📍 <strong>M.Sc. Data Science & AI @ Saarland University, Germany 🇩🇪</strong> | <strong>B.Sc. Computer Science @ UCP, Pakistan 🇵🇰</strong></p>
+  <p><strong>M.Sc. Data Science & AI @ Saarland University, Germany </strong> | <strong>B.Sc. Computer Science @ UCP, Pakistan </strong></p>
   <br>
   <p align="center">
   <a href="https://www.linkedin.com/in/hajrahrehman/">
