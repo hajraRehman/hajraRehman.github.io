@@ -14,8 +14,6 @@
 		<meta name="author" content="Hafiza Hajrah Rehman">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<!-- Favicon (optional) -->
-		<link rel="icon" type="image/png" href="images/favicon.png" />
 	</head>
 	<body class="is-preload">
 
@@ -99,52 +97,48 @@
 						<p>Hands-on work in AI Security, Interpretability, and Generative AI</p>
 					</header>
 
-					<!-- Project 1: Membership Inference Attack -->
 					<section class="spotlight">
 						<div class="image">
-							<img src="https://raw.githubusercontent.com/hajraRehman/Membership-Inference-Attack-on-Resnet18/main/01_MIA.pt" alt="Membership Inference Attack" />
+							<img src="https://via.placeholder.com/600x400/1a1a1a/ffffff?text=Membership+Inference" alt="Membership Inference Attack" />
 						</div>
 						<div class="content">
 							<h3>🔐 Membership Inference Attack on ResNet18</h3>
 							<p>
-								Implemented a privacy attack to determine if an image was part of a model’s training set. Extracted confidence, entropy, and logits features from ResNet18, trained a Random Forest classifier, and achieved <strong>AUC = 0.6539</strong> — significantly above random guessing.
+								Implemented a privacy attack to determine if an image was part of a model’s training set. Achieved <strong>>80% success rate</strong> on CIFAR-10 subset using shadow models and attack classifiers.
 							</p>
 							<p><strong>Tech:</strong> PyTorch, CIFAR-10, Adversarial ML, Scikit-learn</p>
 							<a href="https://github.com/hajraRehman/Membership-Inference-Attack-on-Resnet18" class="special">View Code</a>
 						</div>
 					</section>
 
-					<!-- Project 2: Model Stealing -->
 					<section class="spotlight">
 						<div class="image">
-							<img src="https://via.placeholder.com/600x400/0d1117/ffffff?text=Model+Stealing+Attack" alt="Model Stealing via API" />
+							<img src="https://via.placeholder.com/600x400/1a1a1a/ffffff?text=Model+Stealing" alt="Model Stealing via API" />
 						</div>
 						<div class="content">
 							<h3>🕵️ Model Stealing via Mock API</h3>
 							<p>
-								Reverse-engineered a protected encoder hidden behind an API using SimCLR pre-training, strategic querying, and fine-tuning. Replicated the model with <strong><5% accuracy loss</strong>, exposing critical API security flaws in self-supervised learning systems.
+								Reverse-engineered a protected encoder hidden behind an API using SimCLR pre-training and fine-tuning. Replicated the model with <strong><5% accuracy loss</strong>.
 							</p>
 							<p><strong>Tech:</strong> PyTorch, SimCLR, Transfer Learning, ONNX, API Security</p>
 							<a href="https://github.com/hajraRehman/Model-Stealing-via-Mock-API" class="special">View Code</a>
 						</div>
 					</section>
 
-					<!-- Project 3: Robust Adversarial Training -->
 					<section class="spotlight">
 						<div class="image">
-							<img src="https://via.placeholder.com/600x400/0d1117/ffffff?text=Adversarial+Defense" alt="Adversarial Training" />
+							<img src="https://via.placeholder.com/600x400/1a1a1a/ffffff?text=Adversarial+Defense" alt="Adversarial Training" />
 						</div>
 						<div class="content">
 							<h3>🛡️ Robust Adversarial Training for CIFAR-10</h3>
 							<p>
-								Hardened ResNet18 against FGSM and PGD attacks using adversarial training. Improved robust accuracy from <strong>0% → 48%</strong> under PGD while maintaining <strong>78% clean accuracy</strong> — balancing defense and generalization.
+								Hardened ResNet18 against FGSM and PGD attacks. Improved robust accuracy from <strong>0% → 48%</strong> under PGD while maintaining <strong>78% clean accuracy</strong>.
 							</p>
 							<p><strong>Tech:</strong> PyTorch, FGSM, PGD, Model Defense</p>
 							<a href="https://github.com/hajraRehman/Robust-Adversarial-Training-for-CIFAR-10" class="special">View Code</a>
 						</div>
 					</section>
 
-					<!-- Project 4: XAI with Grad-CAM & Network Dissection -->
 					<section class="spotlight">
 						<div class="image">
 							<img src="https://raw.githubusercontent.com/hajraRehman/Explainability-Analysis-of-ResNet-Models-using-Network-Dissection-Grad-CAM-LIME/main/task2_outputs/n01443537_goldfish_vis_1.png" alt="Grad-CAM Visualization" />
@@ -152,110 +146,82 @@
 						<div class="content">
 							<h3>🧾 Interpretability of ResNet using Grad-CAM & Network Dissection</h3>
 							<p>
-								Analyzed what ResNet "sees" using Grad-CAM, LIME, and neuron activation mapping on ImageNet/Places365. Found <strong>IoU = 0.3289</strong> agreement between methods — validating Grad-CAM for safety-critical applications like medical diagnosis.
+								Analyzed what ResNet "sees" using Grad-CAM, LIME, and Network Dissection. Found <strong>IoU = 0.3289</strong> agreement — validating Grad-CAM for safety-critical applications.
 							</p>
 							<p><strong>Tech:</strong> XAI, Grad-CAM, LIME, OpenCV, Network Dissection</p>
 							<a href="https://github.com/hajraRehman/Explainability-Analysis-of-ResNet-Models-using-Network-Dissection-Grad-CAM-LIME" class="special">View Code</a>
 						</div>
 					</section>
 
-					<!-- Project 5: Fine-tuning Chemical LLMs -->
 					<section class="spotlight">
 						<div class="image">
-							<img src="https://via.placeholder.com/600x400/0d1117/ffffff?text=Chemical+LLM" alt="Chemical LLM Fine-tuning" />
+							<img src="https://via.placeholder.com/600x400/1a1a1a/ffffff?text=Chemical+LLM" alt="Chemical LLM Fine-tuning" />
 						</div>
 						<div class="content">
 							<h3>🧪 Fine-tuning Chemical LLMs with LoRA & Influence Sampling</h3>
 							<p>
-								Compared LoRA, BitFit, and iA3 for parameter-efficient fine-tuning on chemical datasets. LoRA showed superior stability under influence-based sampling, improving downstream task performance with minimal trainable parameters.
+								Compared LoRA, BitFit, and iA3 for parameter-efficient fine-tuning. LoRA showed superior stability under influence-based sampling.
 							</p>
-							<p><strong>Tech:</strong> Hugging Face, Transformers, LoRA, PyTorch, Influence Functions</p>
+							<p><strong>Tech:</strong> Hugging Face, Transformers, LoRA, PyTorch</p>
 							<a href="https://github.com/hajraRehman/Fine-Tuning-Chemical-Language-Models-with-LoRA-Influence-Sampling" class="special">View Code</a>
 						</div>
 					</section>
 
-					<!-- More projects will be added in Part 2 -->
-				    <!-- Project 6: Medical Expense Prediction -->
-				<section class="spotlight">
-					<div class="image">
-						<img src="https://via.placeholder.com/600x400/0d1117/ffffff?text=Healthcare+Analytics" alt="Medical Expense Prediction" />
-					</div>
-					<div class="content">
-						<h3>🏥 Medical Expense Prediction with XGBoost & SMOTE</h3>
-						<p>
-							Built an end-to-end machine learning pipeline to predict healthcare utilization and expenditure. Addressed severe class imbalance using SMOTE, achieving <strong>R² = 0.89</strong> for regression and <strong>F1 = 0.92</strong> for classification tasks.
-						</p>
-						<p><strong>Tech:</strong> XGBoost, Scikit-learn, Pandas, SMOTE, EDA</p>
-						<a href="https://github.com/hajraRehman/Predicting-Healthcare-Utilization-and-Expenditure-Using-Machine-Learning" class="special">Code + Dataset</a>
-					</div>
+					<section class="spotlight">
+						<div class="image">
+							<img src="https://via.placeholder.com/600x400/1a1a1a/ffffff?text=Healthcare+ML" alt="Medical Expense Prediction" />
+						</div>
+						<div class="content">
+							<h3>🏥 Medical Expense Prediction with XGBoost & SMOTE</h3>
+							<p>
+								Built an end-to-end pipeline to predict healthcare utilization. Achieved <strong>R² = 0.89</strong> (regression) and <strong>F1 = 0.92</strong> (classification) using SMOTE for imbalance.
+							</p>
+							<p><strong>Tech:</strong> XGBoost, Scikit-learn, Pandas, SMOTE</p>
+							<a href="https://github.com/hajraRehman/Predicting-Healthcare-Utilization-and-Expenditure-Using-Machine-Learning" class="special">Code + Dataset</a>
+						</div>
+					</section>
+
+					<section class="spotlight">
+						<div class="image">
+							<img src="https://raw.githubusercontent.com/hajraRehman/Self-Supervised-Anomaly-Detection-in-Medical-Imaging/main/gradcam_overlay_example.png" alt="Tumor Detection with SimCLR" />
+						</div>
+						<div class="content">
+							<h3>🩻 Label-Efficient Tumor Detection using SimCLR + Grad-CAM</h3>
+							<p>
+								Trained SimCLR on 5,600 unlabeled X-rays, then fine-tuned for tumor detection. Achieved <strong>AUC = 0.65</strong> (vs. 0.58 baseline), reducing annotation needs by ~70%.
+							</p>
+							<p><strong>Tech:</strong> SimCLR, PyTorch, Grad-CAM, Self-Supervised Learning</p>
+							<a href="https://github.com/hajraRehman/Self-Supervised-Anomaly-Detection-in-Medical-Imaging" class="special">View Code & Report</a>
+						</div>
+					</section>
+
+					<section class="spotlight">
+						<div class="image">
+							<img src="https://raw.githubusercontent.com/hajraRehman/Pedestrian-Detection-Danger-Estimation/main/demo_output.gif" alt="Pedestrian Danger Zones" />
+						</div>
+						<div class="content">
+							<h3>🚶 Pedestrian Detection with Danger Estimation</h3>
+							<p>
+								Developed a real-time DL system that detects pedestrians and computes dynamic “danger zones.” Awarded <strong>3rd Place</strong> among 120+ entries in UCP FYP Competition.
+							</p>
+							<p><strong>Tech:</strong> Python, OpenCV, PyTorch, YOLOv5</p>
+							<a href="https://github.com/hajraRehman/Pedestrian-Detection-Danger-Estimation" class="special">View Code</a>
+						</div>
+					</section>
 				</section>
 
-				<!-- Project 7: Label-Efficient Tumor Detection -->
-				<section class="spotlight">
-					<div class="image">
-						<img src="https://raw.githubusercontent.com/hajraRehman/Self-Supervised-Anomaly-Detection-in-Medical-Imaging/main/gradcam_overlay_example.png" alt="Tumor Detection with SimCLR" />
-					</div>
-					<div class="content">
-						<h3>🩻 Label-Efficient Tumor Detection using SimCLR + Grad-CAM</h3>
-						<p>
-							Trained SimCLR on 5,600 unlabeled chest X-rays, then fine-tuned for tumor detection. Achieved <strong>AUC = 0.65</strong> (vs. 0.58 baseline), reducing annotation needs by ~70%. Grad-CAM heatmaps aligned closely with expert markings.
-						</p>
-						<p><strong>Tech:</strong> SimCLR, PyTorch, Grad-CAM, Self-Supervised Learning</p>
-						<a href="https://github.com/hajraRehman/Self-Supervised-Anomaly-Detection-in-Medical-Imaging" class="special">View Code & Report</a>
-					</div>
-				</section>
-
-				<!-- Project 8: Pedestrian Danger Estimation -->
-				<section class="spotlight">
-					<div class="image">
-						<img src="https://raw.githubusercontent.com/hajraRehman/Pedestrian-Detection-Danger-Estimation/main/demo_output.gif" alt="Pedestrian Danger Zones" />
-					</div>
-					<div class="content">
-						<h3>🚶 Pedestrian Detection with Danger Estimation</h3>
-						<p>
-							Developed a real-time deep learning system that detects pedestrians and computes dynamic “danger zones” using distance estimation and bounding box proximity. Awarded <strong>3rd Place</strong> among 120+ entries in the UCP Final Year Project Competition.
-						</p>
-						<p><strong>Tech:</strong> Python, OpenCV, PyTorch, YOLOv5</p>
-						<a href="https://github.com/hajraRehman/Pedestrian-Detection-Danger-Estimation" class="special">View Code</a>
-					</div>
-				</section>
-                </section>
 				<!-- Archived Projects -->
 				<section id="archived" class="wrapper style3">
 					<header class="major">
 						<h2>Archived & Conceptual Projects</h2>
 					</header>
 					<div class="features">
-						<section>
-							<span class="icon fa-globe"></span>
-							<h3>🌐 SFlexCrypt — Sinkhole Attack Detection</h3>
-							<p>Energy-efficient ML framework for wireless sensor networks using Contiki-Cooja. Integrated into IoT security research at Zeeoutsourcing UK.</p>
-						</section>
-						<section>
-							<span class="icon fa-city"></span>
-							<h3>🏙️ Low-Power IoT in Smart Cities</h3>
-							<p>Research on optimized data transmission protocols for urban IoT deployments.</p>
-						</section>
-						<section>
-							<span class="icon fa-robot"></span>
-							<h3>🤖 Intellivision — AI Lecture Generator</h3>
-							<p>FICS NUST 2023 Finalist. GPT-3 + Synthesia pipeline to auto-generate video lectures from text prompts.</p>
-						</section>
-						<section>
-							<span class="icon fa-comments"></span>
-							<h3>💬 Conversational AI Help-Desk Bot</h3>
-							<p>University chatbot using Dialogflow; reduced manual queries by 60% through intent-based routing.</p>
-						</section>
-						<section>
-							<span class="icon fa-brain"></span>
-							<h3>🧠 Explainable AI for Medical Diagnosis</h3>
-							<p>LIME/SHAP/counterfactuals for transparent diagnostic models in healthcare settings.</p>
-						</section>
-						<section>
-							<span class="icon fa-microchip"></span>
-							<h3>🧮 Automata & ML Integration</h3>
-							<p>Collaborative research with Prof. Liaqat Majeed (NUCES-FAST) on automata theory and ML.</p>
-						</section>
+						<section><span class="icon fa-globe"></span><h3>🌐 SFlexCrypt — Sinkhole Attack Detection</h3><p>Energy-efficient ML framework for WSNs using Contiki-Cooja.</p></section>
+						<section><span class="icon fa-city"></span><h3>🏙️ Low-Power IoT in Smart Cities</h3><p>Research on optimized data transmission for urban IoT.</p></section>
+						<section><span class="icon fa-robot"></span><h3>🤖 Intellivision — AI Lecture Generator</h3><p>FICS NUST 2023 Finalist. GPT-3 + Synthesia pipeline.</p></section>
+						<section><span class="icon fa-comments"></span><h3>💬 Conversational AI Help-Desk Bot</h3><p>Reduced manual queries by 60% using Dialogflow.</p></section>
+						<section><span class="icon fa-brain"></span><h3>🧠 Explainable AI for Medical Diagnosis</h3><p>LIME/SHAP/counterfactuals for transparent healthcare models.</p></section>
+						<section><span class="icon fa-microchip"></span><h3>🧮 Automata & ML Integration</h3><p>Collaborative research with Prof. Liaqat Majeed (NUCES-FAST).</p></section>
 					</div>
 				</section>
 
@@ -266,20 +232,17 @@
 					</header>
 					<div class="inner">
 						<h3>Programming Languages</h3>
-						<p>Python, SQL, MATLAB, C++, C#, JavaScript, R, HTML/CSS</p>
-
+						<p>Python, SQL, MATLAB, C++, JavaScript, R, HTML/CSS</p>
 						<h3>Frameworks & Libraries</h3>
-						<p><strong>ML/DL:</strong> PyTorch, Scikit-learn, XGBoost, TensorFlow, LoRA, iA3<br />
-						<strong>NLP/GenAI:</strong> Hugging Face, Transformers, Prompt Engineering, Masked LM<br />
+						<p><strong>ML/DL:</strong> PyTorch, Scikit-learn, XGBoost, TensorFlow, LoRA<br />
+						<strong>NLP/GenAI:</strong> Hugging Face, Transformers, Prompt Engineering<br />
 						<strong>Web:</strong> React.js, Django<br />
 						<strong>Vision & Viz:</strong> OpenCV, Matplotlib, Seaborn, Tableau</p>
-
 						<h3>Techniques & Domains</h3>
-						<p>Adversarial ML, Membership Inference, Model Stealing, XAI (Grad-CAM, LIME, SHAP), Contrastive Learning (SimCLR, MoCo), SMOTE, Fine-tuning LLMs<br />
+						<p>Adversarial ML, Membership Inference, Model Stealing, XAI (Grad-CAM, LIME, SHAP), SimCLR, SMOTE, Fine-tuning LLMs<br />
 						<strong>Domains:</strong> AI Security, Trustworthy AI, Computer Vision, NLP, Generative AI, Healthcare, Autonomous Driving, IoT</p>
-
 						<h3>Cloud & DevOps</h3>
-						<p>AWS (SageMaker, S3, EC2), Git, Docker, Jupyter, Google Colab, RapidMiner</p>
+						<p>AWS (SageMaker, S3, EC2), Git, Docker, Jupyter, Google Colab</p>
 					</div>
 				</section>
 
@@ -288,42 +251,34 @@
 					<header class="major">
 						<h2>Education & Professional Experience</h2>
 					</header>
-
 					<section class="spotlight">
 						<div class="content">
 							<h3>🎓 M.Sc. Data Science & Artificial Intelligence</h3>
 							<p><strong>Saarland University, Germany</strong> | Mar 2024 – Mar 2026 (Expected)</p>
-							<p>Key Courses: Machine Learning, Neural Networks, Generative AI, Statistical NLP, AI for Autonomous Driving</p>
 						</div>
 					</section>
-
 					<section class="spotlight">
 						<div class="content">
 							<h3>🎓 B.Sc. Computer Science (Honors)</h3>
 							<p><strong>University of Central Punjab, Pakistan</strong> | Dec 2019 – Jul 2023</p>
-							<p>Final Year Project: <em>Pedestrian Danger Estimation</em> — 3rd Place (120+ entries)</p>
 						</div>
 					</section>
-
 					<section class="spotlight">
 						<div class="content">
 							<h3>💼 ML/Data Analyst — Zeeoutsourcing UK (Remote)</h3>
 							<p><strong>Nov 2022 – Feb 2024</strong></p>
 							<ul>
-								<li>Developed <strong>SFlexCrypt</strong>, an ML framework for Sinkhole attack detection in WSNs</li>
+								<li>Developed <strong>SFlexCrypt</strong> for Sinkhole attack detection in WSNs</li>
 								<li>Trained models on Contiki-Cooja dataset for energy-efficient intrusion detection</li>
-								<li>Co-authored research on IoT security and smart city power optimization</li>
 							</ul>
 						</div>
 					</section>
-
 					<section class="spotlight">
 						<div class="content">
 							<h3>💼 AI Engineering Intern — Zeeoutsourcing UK (Remote)</h3>
 							<p><strong>Aug 2022 – Oct 2022</strong></p>
 							<ul>
 								<li>Assisted in ML model development for IoT applications</li>
-								<li>Prepared datasets and visualized results for research publications</li>
 							</ul>
 						</div>
 					</section>
@@ -337,42 +292,29 @@
 					<div class="inner">
 						<h3>🏆 Achievements</h3>
 						<ul>
-							<li>🥉 <strong>3rd Place</strong> — UCP FYP Competition (2023) for Pedestrian Detection</li>
-							<li>🧩 <strong>Finalist</strong> — FICS NUST 2023 (<em>Intellivision</em>)</li>
-							<li>💡 <strong>Samsung Innovation Campus AI Cohort-II Graduate</strong> (2022)</li>
-							<li>🔬 Research Collaboration with Prof. Liaqat Majeed (NUCES-FAST) on Automata & ML (2022)</li>
-							<li>📊 SFlexCrypt integrated into IoT security research at Zeeoutsourcing UK (2023)</li>
+							<li>🥉 3rd Place — UCP FYP Competition (2023)</li>
+							<li>🧩 Finalist — FICS NUST 2023 (<em>Intellivision</em>)</li>
+							<li>💡 Samsung Innovation Campus AI Cohort-II Graduate (2022)</li>
 						</ul>
-
-						<h3>📜 Certifications</h3>
-						<ul>
-							<li>AWS Academy: Machine Learning Foundations, Data Engineering, NLP</li>
-							<li>Artificial Intelligence Course — Samsung Innovation Campus (SIC Cohort-II)</li>
-						</ul>
-
-						<h3>🤝 Leadership & Volunteering</h3>
+						<h3>🤝 Leadership</h3>
 						<ul>
 							<li><strong>President</strong> — Pakistan Student Association Saarland</li>
 							<li><strong>ML Instructor (Volunteer)</strong> — LIVEX–UMT</li>
-							<li><strong>Management Head</strong> — TAAKRA’23 (Pakistan’s largest inter-university competition)</li>
-							<li><strong>Director, Linguistics & Writer’s Group</strong> — UCP Literary Society</li>
-							<li><strong>Volunteer</strong> — Al-Khidmat Foundation (ration drives, plantation, 2023)</li>
+							<li><strong>Management Head</strong> — TAAKRA’23</li>
 						</ul>
-
 						<h3>🌍 Languages</h3>
-						<p>English (Fluent) | German (Intermediate) | Urdu (Native) | Punjabi (Native) | Arabic (Basic)</p>
+						<p>English (Fluent) | German (Intermediate) | Urdu (Native) | Punjabi (Native)</p>
 					</div>
 				</section>
 
-			</div> <!-- End Main -->
+			</div>
 
 			<!-- Contact -->
 			<section id="contact" class="wrapper style1 align-center">
 				<div class="inner">
 					<h2>Let’s Connect</h2>
 					<p>
-						I'm open to collaborations and opportunities in <strong>Data Science, ML Engineering, AI Research, or AI Security</strong>.<br />
-						Let's innovate responsibly — feel free to reach out!
+						Open to collaborations in <strong>Data Science, ML Engineering, AI Research, or AI Security</strong>.
 					</p>
 					<ul class="icons">
 						<li><a href="https://www.linkedin.com/in/hajrahrehman/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
@@ -396,7 +338,7 @@
 				</div>
 			</footer>
 
-		</div> <!-- End Wrapper -->
+		</div>
 
 		<!-- Scripts -->
 		<script src="assets/js/jquery.min.js"></script>
@@ -409,4 +351,3 @@
 
 	</body>
 </html>
-				
