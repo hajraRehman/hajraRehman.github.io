@@ -118,12 +118,9 @@ I'm always open to discussing **AI research, collaboration opportunities, or inn
 
 ---
 
-## 📊 GitHub Stats  
-![Hajra's GitHub Stats](https://github-readme-stats.vercel.app/api?username=hajraRehman&show_icons=true&theme=radical)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hajraRehman&layout=compact&theme=radical)
-
 ---
 
 **⚡ Powered by curiosity, built with purpose.**  
 
 ---
+
