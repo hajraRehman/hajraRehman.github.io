@@ -1,7 +1,7 @@
 # **Hafiza Hajrah Rehman**  
 ### **AI Engineer & Researcher | Trustworthy AI | Product-First ML**  
 
-📍 Germany | 📧 hafizahajra@gmail.com | [LinkedIn](https://linkedin.com/in/hajrahrehman) | [Portfolio](https://hajraRehman.github.io)
+📍 Germany | 📧 hafizahajra@gmail.com | [LinkedIn](https://linkedin.com/in/hajrahrehman) |
 
 ---
 
@@ -123,4 +123,5 @@ I'm always open to discussing **AI research, collaboration opportunities, or inn
 **⚡ Powered by curiosity, built with purpose.**  
 
 ---
+
 
