@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hajrah Rehman — AI Engineer & Researcher</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --blue: #1d4ed8;
+  --blue-mid: #2563eb;
+  --blue-light: #eff6ff;
+  --blue-border: #bfdbfe;
+  --text: #111827;
+  --text-mid: #374151;
+  --text-muted: #6b7280;
+  --border: #e5e7eb;
+  --bg: #ffffff;
+  --bg-subtle: #f9fafb;
+  --bg-blue: #eff6ff;
+  --green: #16a34a;
+  --green-bg: #f0fdf4;
+  --green-border: #bbf7d0;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: Arial, Calibri, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+/* ── NAV ── */
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(255,255,255,0.97);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border);
+}
+.nav-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2.5rem;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-name {
+  font-size: 0.95rem;
+  font-weight: bold;
+  color: var(--text);
+  text-decoration: none;
+}
+.nav-name span { color: var(--blue); }
+.nav-links { display: flex; gap: 2rem; list-style: none; }
+.nav-links a { font-size: 0.8rem; color: var(--text-muted); text-decoration: none; transition: color 0.15s; }
+.nav-links a:hover { color: var(--blue); }
+.nav-cta {
+  font-size: 0.78rem;
+  font-weight: bold;
+  background: var(--blue);
+  color: #fff;
+  padding: 0.42rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.15s;
+}
+.nav-cta:hover { background: #1e40af; }
+
+/* ── PAGE WRAPPER ── */
+.page { max-width: 1100px; margin: 0 auto; padding: 0 2.5rem; }
+
+/* ── HERO ── */
+.hero {
+  padding: 5rem 0 4rem;
+  border-bottom: 1px solid var(--border);
+}
+.hero-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+.hero-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.75rem;
+  color: var(--green);
+  background: var(--green-bg);
+  border: 1px solid var(--green-border);
+  padding: 0.3rem 0.85rem;
+  border-radius: 4px;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  margin-bottom: 1.25rem;
+}
+.hero-status::before {
+  content: "";
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--green);
+  animation: blink 2s ease infinite;
+}
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
+h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: var(--text);
+  line-height: 1.1;
+  letter-spacing: -0.025em;
+  margin-bottom: 0.5rem;
+}
+.hero-subtitle {
+  font-size: 1.05rem;
+  color: var(--blue);
+  font-weight: bold;
+  margin-bottom: 1.4rem;
+}
+.hero-bio {
+  font-size: 0.93rem;
+  color: var(--text-mid);
+  line-height: 1.8;
+  max-width: 680px;
+  margin-bottom: 0;
+}
+.hero-bio strong { color: var(--text); }
+.hero-meta {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  align-self: flex-start;
+  padding-top: 0.5rem;
+}
+.hero-stat {
+  text-align: center;
+  padding: 1rem 1.5rem;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  min-width: 100px;
+}
+.hero-stat-num {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: var(--blue);
+  line-height: 1;
+  margin-bottom: 0.25rem;
+}
+.hero-stat-label { font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.07em; }
+.hero-bottom {
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.hero-links { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.5rem 1.1rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.15s;
+  font-family: Arial, Calibri, sans-serif;
+  letter-spacing: 0.01em;
+}
+.btn-primary { background: var(--blue); color: #fff; }
+.btn-primary:hover { background: #1e40af; }
+.btn-ghost { border: 1px solid var(--border); color: var(--text-mid); background: #fff; }
+.btn-ghost:hover { border-color: var(--blue); color: var(--blue); background: var(--bg-blue); }
+.hero-location {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+/* ── SECTION LAYOUT ── */
+.section { padding: 3.5rem 0; border-bottom: 1px solid var(--border); }
+.section:last-child { border-bottom: none; }
+.section-inner {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 3.5rem;
+  align-items: start;
+}
+.section-aside {}
+.section-label {
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  padding-top: 0.3rem;
+  position: sticky;
+  top: 76px;
+}
+h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: var(--text);
+  margin-bottom: 1.75rem;
+  letter-spacing: -0.01em;
+}
+h2 span { color: var(--blue); }
+
+/* ── ABOUT ── */
+.about-text p { font-size: 0.9rem; color: var(--text-mid); line-height: 1.8; margin-bottom: 0.85rem; }
+.about-text p strong { color: var(--text); }
+.about-text p:last-child { margin-bottom: 0; }
+.focus-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.7rem; margin-top: 1.75rem; }
+.focus-card {
+  padding: 1rem 1.1rem;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border);
+  border-top: 2px solid var(--blue);
+  border-radius: 4px;
+  transition: box-shadow 0.15s;
+}
+.focus-card:hover { box-shadow: 0 2px 12px rgba(29,78,216,0.08); }
+.focus-card-title { font-size: 0.82rem; font-weight: bold; color: var(--text); margin-bottom: 0.25rem; }
+.focus-card-sub { font-size: 0.75rem; color: var(--text-muted); line-height: 1.5; }
+
+/* ── SKILLS ── */
+.skills-table { display: flex; flex-direction: column; gap: 0; border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
+.skill-row {
+  display: grid;
+  grid-template-columns: 190px 1fr;
+  gap: 0;
+  border-bottom: 1px solid var(--border);
+  transition: background 0.15s;
+}
+.skill-row:last-child { border-bottom: none; }
+.skill-row:hover { background: var(--bg-subtle); }
+.skill-label {
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.9rem 1.1rem;
+  background: var(--bg-subtle);
+  border-right: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+}
+.skill-pills { padding: 0.75rem 1rem; display: flex; flex-wrap: wrap; gap: 0.35rem; align-items: center; }
+.pill {
+  font-size: 0.74rem;
+  padding: 0.2rem 0.65rem;
+  border-radius: 3px;
+  background: #fff;
+  border: 1px solid var(--border);
+  color: var(--text-mid);
+  white-space: nowrap;
+}
+
+/* ── EXPERIENCE ── */
+.exp-list { display: flex; flex-direction: column; gap: 2.25rem; }
+.exp-card {
+  padding: 1.5rem;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--blue);
+  border-radius: 4px;
+  transition: box-shadow 0.15s;
+}
+.exp-card:hover { box-shadow: 0 2px 16px rgba(29,78,216,0.08); }
+.exp-card-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-bottom: 0.3rem; }
+.exp-role { font-size: 1rem; font-weight: bold; color: var(--text); }
+.exp-period {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  background: #fff;
+  border: 1px solid var(--border);
+  padding: 0.2rem 0.65rem;
+  border-radius: 3px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.exp-company { font-size: 0.82rem; color: var(--blue); font-weight: bold; margin-bottom: 0.9rem; }
+.exp-bullets { list-style: none; display: flex; flex-direction: column; gap: 0.45rem; }
+.exp-bullets li { font-size: 0.84rem; color: var(--text-mid); padding-left: 1.2rem; position: relative; line-height: 1.65; }
+.exp-bullets li::before { content: "▸"; position: absolute; left: 0; color: var(--blue); font-size: 0.7rem; top: 4px; }
+
+/* ── PROJECTS ── */
+.proj-list { display: flex; flex-direction: column; gap: 0; border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
+.proj-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 2rem;
+  align-items: start;
+  padding: 1.4rem 1.5rem;
+  border-bottom: 1px solid var(--border);
+  transition: background 0.15s;
+}
+.proj-row:last-child { border-bottom: none; }
+.proj-row:hover { background: var(--bg-subtle); }
+.proj-header { display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; margin-bottom: 0.35rem; }
+.proj-cat { font-size: 0.68rem; font-weight: bold; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted); }
+.proj-badge { font-size: 0.65rem; font-weight: bold; padding: 0.15rem 0.55rem; border-radius: 3px; text-transform: uppercase; letter-spacing: 0.06em; }
+.pb-new { background: var(--blue); color: #fff; }
+.pb-live { background: var(--green-bg); color: var(--green); border: 1px solid var(--green-border); }
+.proj-name { font-size: 0.93rem; font-weight: bold; color: var(--text); margin-bottom: 0.35rem; line-height: 1.35; }
+.proj-desc { font-size: 0.82rem; color: var(--text-mid); line-height: 1.65; margin-bottom: 0.65rem; }
+.proj-stack { display: flex; flex-wrap: wrap; gap: 0.3rem; }
+.proj-tech { font-size: 0.7rem; padding: 0.15rem 0.55rem; border-radius: 3px; background: #fff; border: 1px solid var(--border); color: var(--text-muted); }
+.proj-link { font-size: 0.78rem; color: var(--blue); text-decoration: none; font-weight: bold; white-space: nowrap; padding-top: 3px; }
+.proj-link:hover { text-decoration: underline; }
+
+/* ── EDUCATION ── */
+.edu-list { display: flex; flex-direction: column; gap: 1.5rem; }
+.edu-card {
+  padding: 1.4rem 1.5rem;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+.edu-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-bottom: 0.25rem; }
+.edu-degree { font-size: 0.95rem; font-weight: bold; color: var(--text); }
+.edu-period { font-size: 0.72rem; color: var(--text-muted); background: #fff; border: 1px solid var(--border); padding: 0.2rem 0.65rem; border-radius: 3px; white-space: nowrap; flex-shrink: 0; }
+.edu-school { font-size: 0.82rem; color: var(--blue); font-weight: bold; margin-bottom: 0.9rem; }
+.edu-courses { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-bottom: 0; }
+.edu-pill { font-size: 0.72rem; padding: 0.2rem 0.65rem; border-radius: 3px; background: #fff; border: 1px solid var(--border); color: var(--text-mid); }
+
+/* ── ACHIEVEMENTS ── */
+.ach-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem; }
+.ach-card {
+  padding: 1.1rem 1.2rem;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  transition: box-shadow 0.15s;
+}
+.ach-card:hover { box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
+.ach-title { font-size: 0.83rem; font-weight: bold; color: var(--text); margin-bottom: 0.2rem; line-height: 1.4; }
+.ach-sub { font-size: 0.75rem; color: var(--text-muted); line-height: 1.45; }
+
+/* ── LANGUAGES ── */
+.lang-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.75rem; }
+.lang-card {
+  padding: 1rem 1.1rem;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  text-align: center;
+}
+.lang-name { font-size: 0.88rem; font-weight: bold; color: var(--text); margin-bottom: 0.25rem; }
+.lang-level { font-size: 0.72rem; color: var(--text-muted); }
+.lang-bar { height: 3px; background: var(--border); border-radius: 2px; margin-top: 0.6rem; overflow: hidden; }
+.lang-fill { height: 100%; background: var(--blue); border-radius: 2px; }
+
+/* ── LEADERSHIP ── */
+.vol-list { display: flex; flex-direction: column; gap: 0; border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
+.vol-item {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 2rem;
+  align-items: start;
+  padding: 1rem 1.4rem;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.85rem;
+  transition: background 0.15s;
+}
+.vol-item:last-child { border-bottom: none; }
+.vol-item:hover { background: var(--bg-subtle); }
+.vol-role { font-weight: bold; color: var(--text); margin-bottom: 0.2rem; }
+.vol-org { color: var(--blue); font-weight: bold; font-size: 0.78rem; }
+.vol-desc { color: var(--text-muted); font-size: 0.78rem; margin-top: 0.2rem; }
+.vol-date { font-size: 0.72rem; color: var(--text-muted); background: var(--bg-subtle); border: 1px solid var(--border); padding: 0.2rem 0.6rem; border-radius: 3px; white-space: nowrap; margin-top: 2px; }
+
+/* ── CONTACT ── */
+.contact-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  padding: 2.5rem;
+  background: var(--bg-blue);
+  border: 1px solid var(--blue-border);
+  border-radius: 6px;
+}
+.contact-left h2 { margin-bottom: 0.5rem; }
+.contact-left p { font-size: 0.85rem; color: var(--text-mid); line-height: 1.75; }
+.contact-right {}
+.contact-row { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.65rem; font-size: 0.84rem; }
+.contact-row:last-child { margin-bottom: 0; }
+.contact-label { font-weight: bold; color: var(--text-muted); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; min-width: 75px; }
+.contact-val { color: var(--text-mid); }
+.contact-val a { color: var(--blue); text-decoration: none; font-weight: bold; }
+.contact-val a:hover { text-decoration: underline; }
+
+/* ── FOOTER ── */
+footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem 2.5rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+footer a { color: var(--blue); text-decoration: none; }
+footer a:hover { text-decoration: underline; }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 800px) {
+  h1 { font-size: 2rem; }
+  .section-inner { grid-template-columns: 1fr; gap: 1rem; }
+  .section-label { position: static; }
+  .focus-grid { grid-template-columns: 1fr; }
+  .ach-grid { grid-template-columns: 1fr 1fr; }
+  .lang-grid { grid-template-columns: 1fr 1fr; }
+  .contact-box { grid-template-columns: 1fr; gap: 1.5rem; }
+  .nav-links, .nav-cta { display: none; }
+  .hero-meta { width: 100%; }
+  .skill-row { grid-template-columns: 1fr; }
+  .skill-label { border-right: none; border-bottom: 1px solid var(--border); }
+  .proj-row { grid-template-columns: 1fr; }
+  .vol-item { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="#" class="nav-name">Hajrah <span>Rehman</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="mailto:hafizahajra6@gmail.com" class="nav-cta">Get in touch</a>
+  </div>
+</nav>
+
+<div class="page">
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-top">
+    <div>
+      <div class="hero-status">Available for collaborations &nbsp;·&nbsp; Germany</div>
+      <h1>Hajrah Rehman</h1>
+      <div class="hero-subtitle">AI Engineer &amp; Researcher &nbsp;·&nbsp; Agentic AI &nbsp;·&nbsp; Trustworthy &amp; Product-First ML</div>
+      <p class="hero-bio">
+        I build trustworthy, deployable, and impactful AI systems — specializing in <strong>Agentic AI</strong>, LLM orchestration, and AI safety. Currently at <strong>Digital Product School by UnternehmerTUM</strong>, in collaboration with <strong>SAP</strong>, developing frameworks to measure the real business value and ROI of AI agents.
+        MSc in Data Science &amp; AI at Saarland University. I thrive in cross-functional agile teams and believe in building AI that is reliable, explainable, and human-centered.
+      </p>
+    </div>
+
+  </div>
+  <div class="hero-bottom">
+    <div class="hero-links">
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="mailto:hafizahajra6@gmail.com" class="btn btn-ghost">Email</a>
+      <a href="https://linkedin.com/in/hajrahrehman" target="_blank" class="btn btn-ghost">LinkedIn</a>
+      <a href="https://github.com/hajraRehman" target="_blank" class="btn btn-ghost">GitHub</a>
+      <a href="https://hajraRehman.github.io" target="_blank" class="btn btn-ghost">Portfolio</a>
+    </div>
+    <div class="hero-location">📍 Germany</div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="section-inner">
+    <div class="section-aside"><div class="section-label">About</div></div>
+    <div>
+      <h2>About Me</h2>
+      <div class="about-text">
+        <p>I am an <strong>AI Engineer and Researcher</strong> focused on building AI systems that are not only powerful, but trustworthy, explainable, and genuinely valuable. With an <strong>MSc in Data Science &amp; AI from Saarland University</strong> and hands-on industry experience, I bridge cutting-edge research with real-world product development.</p>
+        <p>My current work at <strong>Digital Product School × SAP</strong> centers on one of enterprise AI's biggest open challenges: how do you actually measure what an AI agent is worth to a business? I design evaluation frameworks, multi-agent architectures, and business KPI mapping systems for production AI.</p>
+        <p>Beyond my current role, I have a strong background in <strong>AI safety</strong> — from adversarial training and red teaming to membership inference attacks and model robustness. I am passionate about making AI systems that people can trust and that perform reliably in the real world.</p>
+        <p>I was also a <strong>Research Collaborator</strong> with Prof. Liaqat Majeed at NUCES-FAST Lahore on Theory of Automata and Machine Learning.</p>
+      </div>
+      <div class="focus-grid">
+        <div class="focus-card">
+          <div class="focus-card-title">Agentic AI &amp; LLM Orchestration</div>
+          <div class="focus-card-sub">Multi-agent pipelines, tool-use, memory, and reasoning loops</div>
+        </div>
+        <div class="focus-card">
+          <div class="focus-card-title">AI Value &amp; Business Evaluation</div>
+          <div class="focus-card-sub">Measuring KPIs, ROI, and demonstrating business worth of AI agents</div>
+        </div>
+        <div class="focus-card">
+          <div class="focus-card-title">AI Safety &amp; Robustness</div>
+          <div class="focus-card-sub">Adversarial ML, model safety, red teaming, privacy attacks</div>
+        </div>
+        <div class="focus-card">
+          <div class="focus-card-title">Explainable &amp; Efficient AI</div>
+          <div class="focus-card-sub">LIME, SHAP, LoRA, BitFit, iA3 — parameter-efficient fine-tuning</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section" id="skills">
+  <div class="section-inner">
+    <div class="section-aside"><div class="section-label">Skills</div></div>
+    <div>
+      <h2>Technical Skills</h2>
+      <div class="skills-table">
+        <div class="skill-row">
+          <div class="skill-label">NLP &amp; Generative AI</div>
+          <div class="skill-pills"><span class="pill">Qwen LLM</span><span class="pill">LangChain</span><span class="pill">Agentic AI</span><span class="pill">LLM Fine-tuning</span><span class="pill">LoRA</span><span class="pill">BitFit</span><span class="pill">iA3</span><span class="pill">Prompt Engineering</span><span class="pill">Dialogflow</span></div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-label">ML / DL Frameworks</div>
+          <div class="skill-pills"><span class="pill">PyTorch</span><span class="pill">TensorFlow</span><span class="pill">Scikit-learn</span><span class="pill">XGBoost</span><span class="pill">OpenCV</span><span class="pill">HuggingFace Transformers</span></div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-label">Explainability &amp; Safety</div>
+          <div class="skill-pills"><span class="pill">LIME</span><span class="pill">SHAP</span><span class="pill">Grad-CAM</span><span class="pill">Counterfactuals</span><span class="pill">FGSM</span><span class="pill">PGD</span><span class="pill">Adversarial Training</span><span class="pill">SMOTE</span></div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-label">Cloud &amp; MLOps</div>
+          <div class="skill-pills"><span class="pill">AWS SageMaker</span><span class="pill">EC2</span><span class="pill">S3</span><span class="pill">Docker</span><span class="pill">FastAPI</span><span class="pill">Flask</span><span class="pill">Streamlit</span><span class="pill">GitHub Actions</span><span class="pill">CI/CD</span><span class="pill">Coolify</span></div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-label">Programming</div>
+          <div class="skill-pills"><span class="pill">Python</span><span class="pill">SQL</span><span class="pill">R</span><span class="pill">JavaScript</span><span class="pill">C++</span><span class="pill">C#</span><span class="pill">MATLAB</span><span class="pill">HTML/CSS</span></div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-label">Data &amp; Visualization</div>
+          <div class="skill-pills"><span class="pill">Pandas</span><span class="pill">NumPy</span><span class="pill">Matplotlib</span><span class="pill">Seaborn</span><span class="pill">Tableau</span><span class="pill">EDA</span><span class="pill">Statistical Analysis</span></div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-label">Domains</div>
+          <div class="skill-pills"><span class="pill">Agentic AI</span><span class="pill">Trustworthy AI</span><span class="pill">Computer Vision</span><span class="pill">NLP</span><span class="pill">IoT Security</span><span class="pill">Healthcare AI</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="section" id="experience">
+  <div class="section-inner">
+    <div class="section-aside"><div class="section-label">Experience</div></div>
+    <div>
+      <h2>Work Experience</h2>
+      <div class="exp-list">
+
+        <div class="exp-card">
+          <div class="exp-card-head">
+            <div class="exp-role">AI Engineer</div>
+            <div class="exp-period">Mar 2026 – Present</div>
+          </div>
+          <div class="exp-company">Digital Product School by UnternehmerTUM &nbsp;·&nbsp; Industry Partner: SAP &nbsp;·&nbsp; Germany</div>
+          <ul class="exp-bullets">
+            <li>Designing and building "Booster The Rooster" — an agentic AI product developed in collaboration with SAP to validate and demonstrate the measurable business value, KPIs, and ROI of AI agents.</li>
+            <li>Developing a novel agent evaluation framework addressing the core enterprise question: what is an AI agent actually worth to a business? Covers agent planning, tool use, evaluation loops, and business metric mapping.</li>
+            <li>Architecting multi-agent pipelines using LLM orchestration frameworks, integrating tool-use, memory, and reasoning loops for reliable, traceable agent behavior.</li>
+            <li>Applying prompt engineering, agent evaluation, and traceability techniques to ensure explainable and auditable agent actions in production.</li>
+            <li>Collaborating in an agile cross-functional team (product, design, engineering) following DPS methodology with rapid weekly iteration cycles.</li>
+          </ul>
+        </div>
+
+        <div class="exp-card">
+          <div class="exp-card-head">
+            <div class="exp-role">ML / Data Analyst</div>
+            <div class="exp-period">Nov 2022 – Feb 2024</div>
+          </div>
+          <div class="exp-company">Zeeoutsourcing UK &nbsp;·&nbsp; Remote</div>
+          <ul class="exp-bullets">
+            <li>Developed SFlexCrypt — an ML-based framework for detecting Sinkhole attacks in wireless sensor networks, improving detection accuracy by 22% over baseline methods.</li>
+            <li>Performed end-to-end data preprocessing, feature engineering, model training, and evaluation on the Contiki-Cooja dataset, with a focus on energy-efficient operation.</li>
+            <li>Contributed to research on IoT security and smart city applications, supporting the team's work on sinkhole attack detection.</li>
+            <li>Contributed to AI research focused on energy-efficient intrusion detection in resource-constrained IoT environments.</li>
+          </ul>
+        </div>
+
+        <div class="exp-card">
+          <div class="exp-card-head">
+            <div class="exp-role">AI Engineering Intern</div>
+            <div class="exp-period">Aug 2022 – Oct 2022</div>
+          </div>
+          <div class="exp-company">Zeeoutsourcing UK &nbsp;·&nbsp; Remote</div>
+          <ul class="exp-bullets">
+            <li>Assisted in ML model development for IoT applications, focusing on hyperparameter tuning, performance evaluation, and benchmarking.</li>
+            <li>Conducted literature reviews and data preparation pipelines for energy-efficient AI systems in wireless sensor networks.</li>
+            <li>Contributed to technical documentation and result visualizations supporting the research team's publications on IoT security.</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section" id="projects">
+  <div class="section-inner">
+    <div class="section-aside"><div class="section-label">Projects</div></div>
+    <div>
+      <h2>Selected Projects</h2>
+      <div class="proj-list">
+
+        <div class="proj-row">
+          <div>
+            <div class="proj-header"><span class="proj-cat">Agentic AI</span><span class="proj-badge pb-live">Live @ SAP</span></div>
+            <div class="proj-name">Booster The Rooster</div>
+            <div class="proj-desc">Production-ready agentic AI product built with SAP at Digital Product School. Validates the measurable business value, KPIs, and ROI of AI agents. Covers agent planning, tool use, evaluation loops, and enterprise business metric mapping.</div>
+            <div class="proj-stack"><span class="proj-tech">Python</span><span class="proj-tech">LLM APIs</span><span class="proj-tech">Agentic Frameworks</span><span class="proj-tech">SAP</span></div>
+          </div>
+        </div>
+
+        <div class="proj-row">
+          <div>
+            <div class="proj-header"><span class="proj-cat">Multi-Agent System</span><span class="proj-badge pb-new">New</span></div>
+            <div class="proj-name">Autonomous Research Report Generator</div>
+            <div class="proj-desc">Multi-agent pipeline for generating deep, literature-grounded research reports. Five specialized agents operate in sequence: (1) literature scanner identifies existing knowledge, (2) question generator creates challenging research questions, (3) answering agent responds to each question, (4) gap-finder surfaces research gaps and unexplored directions, (5) reporter compiles a structured, detailed final report.</div>
+            <div class="proj-stack"><span class="proj-tech">Python</span><span class="proj-tech">Qwen LLM</span><span class="proj-tech">Multi-Agent Frameworks</span></div>
+          </div>
+        </div>
+
+        <div class="proj-row">
+          <div>
+            <div class="proj-header"><span class="proj-cat">Agentic AI &nbsp;·&nbsp; Academic Tools</span><span class="proj-badge pb-new">New</span></div>
+            <div class="proj-name">Autonomous Academic Reference Extractor</div>
+            <div class="proj-desc">Multi-agent pipeline that extracts and structures references from academic papers, mapping exact quotes to correctly formatted IEEE citations. Processes multiple papers in a single automated run and consolidates outputs into a clean structured report.</div>
+            <div class="proj-stack"><span class="proj-tech">Python</span><span class="proj-tech">Qwen LLM</span><span class="proj-tech">Agentic Frameworks</span></div>
+          </div>
+        </div>
+
+        <div class="proj-row">
+          <div>
+            <div class="proj-header"><span class="proj-cat">AI Safety &nbsp;·&nbsp; Red Teaming</span></div>
+            <div class="proj-name">Red Team in a Box</div>
+            <div class="proj-desc">Fully autonomous AI red teaming service for end-to-end model safety evaluation. Tests language models against a battery of adversarial prompts and automatically generates structured safety reports covering failure modes, severity, and recommendations.</div>
+            <div class="proj-stack"><span class="proj-tech">Python</span><span class="proj-tech">OpenAI API</span><span class="proj-tech">Ethical AI</span></div>
+          </div>
+          <a href="https://github.com/hajraRehman/RedTeam-in-a-Box-Fully-Autonomous-AI-Red-Teaming-Service" target="_blank" class="proj-link">GitHub ↗</a>
+        </div>
+
+        <div class="proj-row">
+          <div>
+            <div class="proj-header"><span class="proj-cat">AI Safety &nbsp;·&nbsp; Privacy</span></div>
+            <div class="proj-name">Membership Inference Attack on ResNet18</div>
+            <div class="proj-desc">Implemented a shadow model and attack classifier achieving over 80% attack success rate on CIFAR-10, exposing critical privacy leakage in pretrained deep learning models and demonstrating real risks in model deployment without privacy safeguards.</div>
+            <div class="proj-stack"><span class="proj-tech">PyTorch</span><span class="proj-tech">CIFAR-10</span></div>
+          </div>
+          <a href="https://github.com/hajraRehman/Membership-Inference-Attack-on-Resnet18" target="_blank" class="proj-link">GitHub ↗</a>
+        </div>
+
+        <div class="proj-row">
+          <div>
+            <div class="proj-header"><span class="proj-cat">Adversarial ML &nbsp;·&nbsp; Robustness</span></div>
+            <div class="proj-name">Robust Adversarial Training for CIFAR-10</div>
+            <div class="proj-desc">Hardened ResNet18 against evasion attacks using FGSM and PGD-based adversarial training. Improved robust accuracy from 0% to 48% under PGD attack while maintaining 78% clean accuracy — demonstrating practical defenses against adversarial examples.</div>
+            <div class="proj-stack"><span class="proj-tech">PyTorch</span><span class="proj-tech">FGSM</span><span class="proj-tech">PGD</span></div>
+          </div>
+          <a href="https://github.com/hajraRehman/Robust-Adversarial-Training-for-CIFAR-10" target="_blank" class="proj-link">GitHub ↗</a>
+        </div>
+
+        <div class="proj-row">
+          <div>
+            <div class="proj-header"><span class="proj-cat">LLM Fine-Tuning &nbsp;·&nbsp; PEFT</span></div>
+            <div class="proj-name">Fine-Tuning Chemical LLMs with LoRA &amp; Influence Sampling</div>
+            <div class="proj-desc">Comparative study of LoRA, BitFit, and iA3 for parameter-efficient fine-tuning of chemical language models. Evaluated stability, downstream performance, and data efficiency under influence-based data sampling. LoRA demonstrated highest stability and generalization.</div>
+            <div class="proj-stack"><span class="proj-tech">HuggingFace</span><span class="proj-tech">PyTorch</span><span class="proj-tech">LoRA</span><span class="proj-tech">BitFit</span><span class="proj-tech">iA3</span></div>
+          </div>
+          <a href="https://github.com/hajraRehman/Fine-Tuning-Chemical-Language-Models-with-LoRA-Influence-Sampling" target="_blank" class="proj-link">GitHub ↗</a>
+        </div>
+
+        <div class="proj-row">
+          <div>
+            <div class="proj-header"><span class="proj-cat">Explainable AI &nbsp;·&nbsp; Healthcare</span></div>
+            <div class="proj-name">Explainable AI for Medical Diagnosis</div>
+            <div class="proj-desc">Interpretable diagnostic AI system combining LIME, SHAP, and layer-wise relevance propagation to explain model predictions to clinicians. Validated on medical imaging tasks — increased clinician trust by surfacing which image regions drive diagnostic decisions.</div>
+            <div class="proj-stack"><span class="proj-tech">LIME</span><span class="proj-tech">SHAP</span><span class="proj-tech">Grad-CAM</span><span class="proj-tech">PyTorch</span></div>
+          </div>
+          <a href="https://github.com/hajraRehman/Explainability-Analysis-of-ResNet-Models" target="_blank" class="proj-link">GitHub ↗</a>
+        </div>
+
+        <div class="proj-row">
+          <div>
+            <div class="proj-header"><span class="proj-cat">Deployed Application</span></div>
+            <div class="proj-name">Resume Analyzer AI</div>
+            <div class="proj-desc">Deployed Streamlit application that compares CVs against job descriptions using LLMs, identifies gaps, and suggests targeted improvements. Publicly available and used by job seekers for AI-assisted application preparation.</div>
+            <div class="proj-stack"><span class="proj-tech">Streamlit</span><span class="proj-tech">OpenAI</span><span class="proj-tech">LangChain</span></div>
+          </div>
+          <a href="https://github.com/hajraRehman/ResumeAnalyzer" target="_blank" class="proj-link">GitHub ↗</a>
+        </div>
+
+        <div class="proj-row">
+          <div>
+            <div class="proj-header"><span class="proj-cat">Computer Vision &nbsp;·&nbsp; Deep Learning</span></div>
+            <div class="proj-name">Pedestrian Detection with Danger Estimation</div>
+            <div class="proj-desc">Real-time deep learning system detecting pedestrians and estimating accident risk from surveillance feeds. Uses YOLO for detection and a risk scoring module based on trajectory and proximity. Placed 3rd among 120+ final year projects at University of Central Punjab.</div>
+            <div class="proj-stack"><span class="proj-tech">Python</span><span class="proj-tech">OpenCV</span><span class="proj-tech">PyTorch</span><span class="proj-tech">YOLO</span></div>
+          </div>
+          <a href="https://github.com/hajraRehman/Final-Year-Project" target="_blank" class="proj-link">GitHub ↗</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section class="section" id="education">
+  <div class="section-inner">
+    <div class="section-aside"><div class="section-label">Education</div></div>
+    <div>
+      <h2>Education</h2>
+      <div class="edu-list">
+        <div class="edu-card">
+          <div class="edu-head">
+            <div class="edu-degree">MSc in Data Science and Artificial Intelligence</div>
+            <div class="edu-period">Mar 2024 – Present</div>
+          </div>
+          <div class="edu-school">Saarland University &nbsp;·&nbsp; Germany</div>
+          <div class="edu-courses">
+            <span class="edu-pill">Generative AI</span>
+            <span class="edu-pill">Neural Networks: Theory &amp; Implementation</span>
+            <span class="edu-pill">Statistical Natural Language Processing</span>
+            <span class="edu-pill">Machine Learning</span>
+            <span class="edu-pill">High-Level Computer Vision</span>
+            <span class="edu-pill">Advances in AI for Autonomous Driving</span>
+            <span class="edu-pill">German as a Foreign Language (A1)</span>
+          </div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-head">
+            <div class="edu-degree">BSc in Computer Science</div>
+            <div class="edu-period">Dec 2019 – Jul 2023</div>
+          </div>
+          <div class="edu-school">University of Central Punjab &nbsp;·&nbsp; Lahore, Pakistan</div>
+          <div class="edu-courses">
+            <span class="edu-pill">Final Year Project: 3rd Place (120+ teams)</span>
+            <span class="edu-pill">Pedestrian Detection with Danger Estimation</span>
+            <span class="edu-pill">Research Collaboration: Prof. Liaqat Majeed (NUCES-FAST)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section class="section" id="achievements">
+  <div class="section-inner">
+    <div class="section-aside"><div class="section-label">Recognition</div></div>
+    <div>
+      <h2>Certifications &amp; Achievements</h2>
+      <div class="ach-grid">
+        <div class="ach-card"><div class="ach-title">🥉 &nbsp;3rd Place — FYP Competition</div><div class="ach-sub">University of Central Punjab, among 120+ competing projects (2023)</div></div>
+        <div class="ach-card"><div class="ach-title">☁️ &nbsp;AWS Academy Graduate</div><div class="ach-sub">ML Foundations · Data Engineering · Natural Language Processing</div></div>
+        <div class="ach-card"><div class="ach-title">🏆 &nbsp;Selected at FICS NUST 2023</div><div class="ach-sub">Intellivision: AI Content Creation &amp; Video Lecture Generator</div></div>
+        <div class="ach-card"><div class="ach-title">🤖 &nbsp;Samsung AI Cohort-II Graduate</div><div class="ach-sub">Samsung Innovation Campus — AI program completion</div></div>
+        <div class="ach-card"><div class="ach-title">🔬 &nbsp;Research Collaborator</div><div class="ach-sub">Theory of Automata, Mathematical Computing &amp; ML — Prof. Liaqat Majeed, NUCES-FAST Lahore (2022)</div></div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LEADERSHIP -->
+<section class="section" id="leadership">
+  <div class="section-inner">
+    <div class="section-aside"><div class="section-label">Leadership</div></div>
+    <div>
+      <h2>Leadership &amp; Volunteering</h2>
+      <div class="vol-list">
+        <div class="vol-item">
+          <div>
+            <div class="vol-role">President</div>
+            <div class="vol-org">Pakistan Student Association Saarland</div>
+            <div class="vol-desc">Led academic, cultural, and community initiatives for Pakistani students at Saarland University</div>
+          </div>
+          <div class="vol-date">Saarland University</div>
+        </div>
+        <div class="vol-item">
+          <div>
+            <div class="vol-role">ML Instructor (Volunteer)</div>
+            <div class="vol-org">LIVEX – UMT</div>
+            <div class="vol-desc">Taught foundational and applied Machine Learning concepts to undergraduate students</div>
+          </div>
+          <div class="vol-date">Volunteer</div>
+        </div>
+        <div class="vol-item">
+          <div>
+            <div class="vol-role">Management Head</div>
+            <div class="vol-org">TAAKRA'23</div>
+            <div class="vol-desc">Coordinated logistics and management for Pakistan's largest multi-category inter-university competition</div>
+          </div>
+          <div class="vol-date">2023</div>
+        </div>
+        <div class="vol-item">
+          <div>
+            <div class="vol-role">Director of Linguistics &amp; Writer's Group</div>
+            <div class="vol-org">UCP Literary &amp; Engineering Societies</div>
+            <div class="vol-desc">Mentored teams in creative and technical writing; organized inter-departmental literary workshops</div>
+          </div>
+          <div class="vol-date">UCP</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LANGUAGES -->
+<section class="section">
+  <div class="section-inner">
+    <div class="section-aside"><div class="section-label">Languages</div></div>
+    <div>
+      <h2>Languages</h2>
+      <div class="lang-grid">
+        <div class="lang-card">
+          <div class="lang-name">English</div>
+          <div class="lang-level">Fluent</div>
+          <div class="lang-bar"><div class="lang-fill" style="width:95%"></div></div>
+        </div>
+        <div class="lang-card">
+          <div class="lang-name">German</div>
+          <div class="lang-level">Intermediate (B1/B2)</div>
+          <div class="lang-bar"><div class="lang-fill" style="width:55%"></div></div>
+        </div>
+        <div class="lang-card">
+          <div class="lang-name">Urdu</div>
+          <div class="lang-level">Native</div>
+          <div class="lang-bar"><div class="lang-fill" style="width:100%"></div></div>
+        </div>
+        <div class="lang-card">
+          <div class="lang-name">Arabic</div>
+          <div class="lang-level">Basic</div>
+          <div class="lang-bar"><div class="lang-fill" style="width:20%"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="section-inner">
+    <div class="section-aside"><div class="section-label">Contact</div></div>
+    <div>
+      <h2>Get in Touch</h2>
+      <div class="contact-box">
+        <div class="contact-left">
+          <h2>Let's work together</h2>
+          <p>I am open to research collaborations, agentic AI projects, and interesting engineering challenges. Based in Germany. Always happy to discuss trustworthy AI, multi-agent systems, or anything in between.</p>
+        </div>
+        <div class="contact-right">
+          <div class="contact-row"><span class="contact-label">Email</span><span class="contact-val"><a href="mailto:hafizahajra6@gmail.com">hafizahajra6@gmail.com</a></span></div>
+          <div class="contact-row"><span class="contact-label">LinkedIn</span><span class="contact-val"><a href="https://linkedin.com/in/hajrahrehman" target="_blank">linkedin.com/in/hajrahrehman</a></span></div>
+          <div class="contact-row"><span class="contact-label">GitHub</span><span class="contact-val"><a href="https://github.com/hajraRehman" target="_blank">github.com/hajraRehman</a></span></div>
+          <div class="contact-row"><span class="contact-label">Location</span><span class="contact-val">Germany</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</div><!-- /page -->
+
+<footer>
+  <span>Hajrah Rehman &nbsp;·&nbsp; AI Engineer &amp; Researcher &nbsp;·&nbsp; Germany</span>
+  <span>"Building AI with intention, integrity, and measurable impact."</span>
+</footer>
+
+</body>
+</html>
